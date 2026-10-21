@@ -53,7 +53,11 @@ The scaffold and data conventions (**P0.1–P0.3**) and shared simulation engine
   A matched depth-9 pilot reduces depth hits to 133 and improves minimum
   bulk/tail ESS per leapfrog by 35%/26%. It passes the declared screen for
   considering a longer run, while still failing convergence criteria.
-  Likelihood replay, runtime audits, and native process-exit checks pass.
+  The longer four-chain fit completes 4,000 retained draws without divergences:
+  maximum R-hat 1.00684 and minimum bulk/tail ESS 727.28/390.54. It remains
+  unaccepted because tail ESS is below 400 and 1,904 draws hit the depth cap.
+  All 25,749 scientific replay checks pass, with 8,000 runtime events and
+  4,000 raw retained statistics verified. Native process exit code is 0.
   See [benchmark provenance and comparison limits](docs/cocoa_benchmark.md).
 
 The cocoa baseline uses extracted published estimates. Its figure reproduction

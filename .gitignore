@@ -34,10 +34,6 @@ __pycache__/
 !.env.template
 
 # Keep sourced data, figures, provenance, and completed audited fits versioned.
-# Temporarily exclude this active run and its sidecars until its audit finishes.
-# Remove these two rules when the run is finalized for publication.
-/data/processed/cocoa_benchmark/fits/bayes_brwb3_depth_refinement1/
-/data/processed/cocoa_benchmark/fits/bayes_brwb3_depth_refinement1.*
 
 # Editor and operating-system files.
 /.vscode/

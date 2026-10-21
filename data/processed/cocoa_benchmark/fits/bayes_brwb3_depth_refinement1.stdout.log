@@ -1,0 +1,373 @@
+Sampling 1/1 brwb3
+brwb3 chain 3: initialization call 1, elapsed 76.6 s
+brwb3 chain 1: initialization call 1, elapsed 76.6 s
+brwb3 chain 3: warmup call 25, elapsed 186.3 s
+brwb3 chain 1: warmup call 25, elapsed 197.3 s
+brwb3 chain 3: warmup call 50, elapsed 256.2 s
+brwb3 chain 1: warmup call 50, elapsed 271.9 s
+brwb3 chain 3: warmup call 75, elapsed 317.4 s
+brwb3 chain 1: warmup call 75, elapsed 335.9 s
+brwb3 chain 3: warmup call 100, elapsed 390.4 s
+brwb3 chain 1: warmup call 100, elapsed 395.8 s
+brwb3 chain 3: warmup call 125, elapsed 439.6 s
+brwb3 chain 1: warmup call 125, elapsed 472.9 s
+brwb3 chain 3: warmup call 150, elapsed 487.0 s
+brwb3 chain 1: warmup call 150, elapsed 526.8 s
+brwb3 chain 3: warmup call 175, elapsed 554.5 s
+brwb3 chain 1: warmup call 175, elapsed 578.3 s
+brwb3 chain 3: warmup call 200, elapsed 604.6 s
+brwb3 chain 1: warmup call 200, elapsed 626.6 s
+brwb3 chain 3: warmup call 225, elapsed 638.5 s
+brwb3 chain 1: warmup call 225, elapsed 664.3 s
+brwb3 chain 3: warmup call 250, elapsed 670.6 s
+brwb3 chain 1: warmup call 250, elapsed 695.8 s
+brwb3 chain 3: warmup call 275, elapsed 727.7 s
+brwb3 chain 1: warmup call 275, elapsed 759.5 s
+brwb3 chain 3: warmup call 300, elapsed 768.6 s
+brwb3 chain 1: warmup call 300, elapsed 797.8 s
+brwb3 chain 3: warmup call 325, elapsed 798.2 s
+brwb3 chain 1: warmup call 325, elapsed 836.8 s
+brwb3 chain 3: warmup call 350, elapsed 867.8 s
+brwb3 chain 1: warmup call 350, elapsed 907.9 s
+brwb3 chain 3: warmup call 375, elapsed 936.9 s
+brwb3 chain 1: warmup call 375, elapsed 971.4 s
+brwb3 chain 3: warmup call 400, elapsed 987.1 s
+brwb3 chain 1: warmup call 400, elapsed 1025.2 s
+brwb3 chain 3: warmup call 425, elapsed 1069.3 s
+brwb3 chain 1: warmup call 425, elapsed 1083.8 s
+brwb3 chain 3: warmup call 450, elapsed 1135.7 s
+brwb3 chain 1: warmup call 450, elapsed 1148.5 s
+brwb3 chain 3: warmup call 475, elapsed 1210.1 s
+brwb3 chain 1: warmup call 475, elapsed 1218.1 s
+brwb3 chain 1: warmup call 500, elapsed 1268.5 s
+brwb3 chain 3: warmup call 500, elapsed 1277.4 s
+brwb3 chain 1: warmup call 525, elapsed 1308.0 s
+brwb3 chain 3: warmup call 525, elapsed 1320.1 s
+brwb3 chain 1: warmup call 550, elapsed 1352.9 s
+brwb3 chain 3: warmup call 550, elapsed 1362.4 s
+brwb3 chain 1: warmup call 575, elapsed 1376.7 s
+brwb3 chain 3: warmup call 575, elapsed 1386.6 s
+brwb3 chain 1: warmup call 600, elapsed 1408.1 s
+brwb3 chain 3: warmup call 600, elapsed 1419.5 s
+brwb3 chain 1: warmup call 625, elapsed 1434.8 s
+brwb3 chain 3: warmup call 625, elapsed 1450.4 s
+brwb3 chain 1: warmup call 650, elapsed 1465.1 s
+brwb3 chain 3: warmup call 650, elapsed 1489.9 s
+brwb3 chain 1: warmup call 675, elapsed 1493.5 s
+brwb3 chain 3: warmup call 675, elapsed 1529.1 s
+brwb3 chain 1: warmup call 700, elapsed 1567.8 s
+brwb3 chain 3: warmup call 700, elapsed 1573.6 s
+brwb3 chain 3: warmup call 725, elapsed 1622.1 s
+brwb3 chain 1: warmup call 725, elapsed 1651.8 s
+brwb3 chain 3: warmup call 750, elapsed 1669.0 s
+brwb3 chain 3: warmup call 775, elapsed 1713.9 s
+brwb3 chain 1: warmup call 750, elapsed 1724.8 s
+brwb3 chain 3: warmup call 800, elapsed 1756.0 s
+brwb3 chain 1: warmup call 775, elapsed 1791.5 s
+brwb3 chain 3: warmup call 825, elapsed 1795.9 s
+brwb3 chain 3: warmup call 850, elapsed 1838.1 s
+brwb3 chain 1: warmup call 800, elapsed 1852.3 s
+brwb3 chain 3: warmup call 875, elapsed 1884.2 s
+brwb3 chain 1: warmup call 825, elapsed 1910.0 s
+brwb3 chain 3: warmup call 900, elapsed 1946.8 s
+brwb3 chain 1: warmup call 850, elapsed 1956.2 s
+brwb3 chain 3: warmup call 925, elapsed 2031.4 s
+brwb3 chain 1: warmup call 875, elapsed 2057.4 s
+brwb3 chain 3: warmup call 950, elapsed 2088.6 s
+brwb3 chain 1: warmup call 900, elapsed 2110.3 s
+brwb3 chain 1: warmup call 925, elapsed 2158.5 s
+brwb3 chain 3: warmup call 975, elapsed 2166.4 s
+brwb3 chain 1: warmup call 950, elapsed 2212.0 s
+brwb3 chain 3: warmup call 1000, elapsed 2218.9 s
+brwb3 chain 3: saved 1/1000 retained draws
+brwb3 chain 1: warmup call 975, elapsed 2264.4 s
+brwb3 chain 3: sampling call 1025, elapsed 2292.5 s
+brwb3 chain 1: warmup call 1000, elapsed 2308.4 s
+brwb3 chain 1: saved 1/1000 retained draws
+brwb3 chain 3: sampling call 1050, elapsed 2350.6 s
+brwb3 chain 1: sampling call 1025, elapsed 2354.1 s
+brwb3 chain 1: sampling call 1050, elapsed 2392.3 s
+brwb3 chain 3: sampling call 1075, elapsed 2409.7 s
+brwb3 chain 1: sampling call 1075, elapsed 2452.0 s
+brwb3 chain 3: saved 100/1000 retained draws
+brwb3 chain 3: sampling call 1100, elapsed 2465.6 s
+brwb3 chain 1: saved 100/1000 retained draws
+brwb3 chain 1: sampling call 1100, elapsed 2487.5 s
+brwb3 chain 3: sampling call 1125, elapsed 2521.3 s
+brwb3 chain 1: sampling call 1125, elapsed 2530.6 s
+brwb3 chain 1: sampling call 1150, elapsed 2570.6 s
+brwb3 chain 3: sampling call 1150, elapsed 2583.0 s
+brwb3 chain 3: sampling call 1175, elapsed 2640.6 s
+brwb3 chain 1: sampling call 1175, elapsed 2643.3 s
+brwb3 chain 1: saved 200/1000 retained draws
+brwb3 chain 1: sampling call 1200, elapsed 2685.5 s
+brwb3 chain 3: saved 200/1000 retained draws
+brwb3 chain 3: sampling call 1200, elapsed 2713.3 s
+brwb3 chain 1: sampling call 1225, elapsed 2720.9 s
+brwb3 chain 1: sampling call 1250, elapsed 2755.8 s
+brwb3 chain 3: sampling call 1225, elapsed 2770.1 s
+brwb3 chain 1: sampling call 1275, elapsed 2790.5 s
+brwb3 chain 1: saved 300/1000 retained draws
+brwb3 chain 1: sampling call 1300, elapsed 2820.9 s
+brwb3 chain 3: sampling call 1250, elapsed 2830.0 s
+brwb3 chain 1: sampling call 1325, elapsed 2859.0 s
+brwb3 chain 1: sampling call 1350, elapsed 2893.9 s
+brwb3 chain 1: sampling call 1375, elapsed 2926.6 s
+brwb3 chain 3: sampling call 1275, elapsed 2940.5 s
+brwb3 chain 1: saved 400/1000 retained draws
+brwb3 chain 1: sampling call 1400, elapsed 2978.6 s
+brwb3 chain 3: saved 300/1000 retained draws
+brwb3 chain 3: sampling call 1300, elapsed 2988.9 s
+brwb3 chain 1: sampling call 1425, elapsed 3013.0 s
+brwb3 chain 1: sampling call 1450, elapsed 3042.9 s
+brwb3 chain 3: sampling call 1325, elapsed 3047.3 s
+brwb3 chain 1: sampling call 1475, elapsed 3072.4 s
+brwb3 chain 3: sampling call 1350, elapsed 3091.9 s
+brwb3 chain 1: saved 500/1000 retained draws
+brwb3 chain 1: sampling call 1500, elapsed 3103.5 s
+brwb3 chain 1: sampling call 1525, elapsed 3133.3 s
+brwb3 chain 3: sampling call 1375, elapsed 3136.4 s
+brwb3 chain 1: sampling call 1550, elapsed 3162.2 s
+brwb3 chain 3: saved 400/1000 retained draws
+brwb3 chain 3: sampling call 1400, elapsed 3185.4 s
+brwb3 chain 1: sampling call 1575, elapsed 3192.8 s
+brwb3 chain 1: saved 600/1000 retained draws
+brwb3 chain 1: sampling call 1600, elapsed 3224.3 s
+brwb3 chain 3: sampling call 1425, elapsed 3229.6 s
+brwb3 chain 1: sampling call 1625, elapsed 3259.3 s
+brwb3 chain 3: sampling call 1450, elapsed 3277.7 s
+brwb3 chain 1: sampling call 1650, elapsed 3283.6 s
+brwb3 chain 1: sampling call 1675, elapsed 3311.7 s
+brwb3 chain 3: sampling call 1475, elapsed 3320.8 s
+brwb3 chain 1: saved 700/1000 retained draws
+brwb3 chain 1: sampling call 1700, elapsed 3340.2 s
+brwb3 chain 1: sampling call 1725, elapsed 3367.2 s
+brwb3 chain 3: saved 500/1000 retained draws
+brwb3 chain 3: sampling call 1500, elapsed 3377.3 s
+brwb3 chain 1: sampling call 1750, elapsed 3393.4 s
+brwb3 chain 1: sampling call 1775, elapsed 3414.6 s
+brwb3 chain 3: sampling call 1525, elapsed 3418.8 s
+brwb3 chain 1: saved 800/1000 retained draws
+brwb3 chain 1: sampling call 1800, elapsed 3439.6 s
+brwb3 chain 1: sampling call 1825, elapsed 3463.6 s
+brwb3 chain 3: sampling call 1550, elapsed 3465.8 s
+brwb3 chain 1: sampling call 1850, elapsed 3490.1 s
+brwb3 chain 3: sampling call 1575, elapsed 3504.6 s
+brwb3 chain 1: sampling call 1875, elapsed 3525.9 s
+brwb3 chain 3: saved 600/1000 retained draws
+brwb3 chain 3: sampling call 1600, elapsed 3538.9 s
+brwb3 chain 1: saved 900/1000 retained draws
+brwb3 chain 1: sampling call 1900, elapsed 3554.1 s
+brwb3 chain 1: sampling call 1925, elapsed 3578.6 s
+brwb3 chain 3: sampling call 1625, elapsed 3580.1 s
+brwb3 chain 1: sampling call 1950, elapsed 3606.0 s
+brwb3 chain 3: sampling call 1650, elapsed 3621.7 s
+brwb3 chain 1: sampling call 1975, elapsed 3642.7 s
+brwb3 chain 3: sampling call 1675, elapsed 3661.6 s
+brwb3 chain 1: saved 1000/1000 retained draws
+brwb3 chain 1: sampling call 2000, elapsed 3672.7 s
+brwb3 chain 2: initialization call 1, elapsed 3681.5 s
+brwb3 chain 2: warmup call 25, elapsed 3707.1 s
+brwb3 chain 3: saved 700/1000 retained draws
+brwb3 chain 3: sampling call 1700, elapsed 3714.3 s
+brwb3 chain 2: warmup call 50, elapsed 3735.6 s
+brwb3 chain 3: sampling call 1725, elapsed 3755.3 s
+brwb3 chain 2: warmup call 75, elapsed 3774.9 s
+brwb3 chain 3: sampling call 1750, elapsed 3799.5 s
+brwb3 chain 2: warmup call 100, elapsed 3820.2 s
+brwb3 chain 3: sampling call 1775, elapsed 3842.5 s
+brwb3 chain 2: warmup call 125, elapsed 3868.0 s
+brwb3 chain 3: saved 800/1000 retained draws
+brwb3 chain 3: sampling call 1800, elapsed 3886.8 s
+brwb3 chain 2: warmup call 150, elapsed 3917.5 s
+brwb3 chain 3: sampling call 1825, elapsed 3931.0 s
+brwb3 chain 2: warmup call 175, elapsed 3949.7 s
+brwb3 chain 3: sampling call 1850, elapsed 3968.2 s
+brwb3 chain 2: warmup call 200, elapsed 3976.0 s
+brwb3 chain 3: sampling call 1875, elapsed 3997.8 s
+brwb3 chain 2: warmup call 225, elapsed 4004.1 s
+brwb3 chain 2: warmup call 250, elapsed 4024.5 s
+brwb3 chain 3: saved 900/1000 retained draws
+brwb3 chain 3: sampling call 1900, elapsed 4049.2 s
+brwb3 chain 2: warmup call 275, elapsed 4065.2 s
+brwb3 chain 3: sampling call 1925, elapsed 4089.3 s
+brwb3 chain 2: warmup call 300, elapsed 4112.6 s
+brwb3 chain 3: sampling call 1950, elapsed 4133.8 s
+brwb3 chain 2: warmup call 325, elapsed 4158.0 s
+brwb3 chain 3: sampling call 1975, elapsed 4178.3 s
+brwb3 chain 2: warmup call 350, elapsed 4194.3 s
+brwb3 chain 2: warmup call 375, elapsed 4233.2 s
+brwb3 chain 3: saved 1000/1000 retained draws
+brwb3 chain 3: sampling call 2000, elapsed 4239.9 s
+brwb3 chain 4: initialization call 1, elapsed 4242.0 s
+brwb3 chain 2: warmup call 400, elapsed 4274.1 s
+brwb3 chain 2: warmup call 425, elapsed 4315.4 s
+brwb3 chain 2: warmup call 450, elapsed 4358.7 s
+brwb3 chain 2: warmup call 475, elapsed 4396.7 s
+brwb3 chain 2: warmup call 500, elapsed 4425.5 s
+brwb3 chain 2: warmup call 525, elapsed 4449.6 s
+brwb3 chain 4: warmup call 25, elapsed 4469.1 s
+brwb3 chain 2: warmup call 550, elapsed 4476.4 s
+brwb3 chain 2: warmup call 575, elapsed 4513.2 s
+brwb3 chain 4: warmup call 50, elapsed 4527.3 s
+brwb3 chain 2: warmup call 600, elapsed 4561.3 s
+brwb3 chain 4: warmup call 75, elapsed 4564.7 s
+brwb3 chain 2: warmup call 625, elapsed 4604.5 s
+brwb3 chain 4: warmup call 100, elapsed 4607.8 s
+brwb3 chain 2: warmup call 650, elapsed 4646.1 s
+brwb3 chain 4: warmup call 125, elapsed 4663.0 s
+brwb3 chain 2: warmup call 675, elapsed 4685.4 s
+brwb3 chain 4: warmup call 150, elapsed 4720.4 s
+brwb3 chain 2: warmup call 700, elapsed 4723.2 s
+brwb3 chain 4: warmup call 175, elapsed 4754.6 s
+brwb3 chain 2: warmup call 725, elapsed 4758.8 s
+brwb3 chain 2: warmup call 750, elapsed 4803.3 s
+brwb3 chain 4: warmup call 200, elapsed 4816.6 s
+brwb3 chain 2: warmup call 775, elapsed 4850.6 s
+brwb3 chain 4: warmup call 225, elapsed 4877.6 s
+brwb3 chain 2: warmup call 800, elapsed 4900.3 s
+brwb3 chain 4: warmup call 250, elapsed 4933.6 s
+brwb3 chain 2: warmup call 825, elapsed 4949.3 s
+brwb3 chain 2: warmup call 850, elapsed 4978.9 s
+brwb3 chain 4: warmup call 275, elapsed 4979.9 s
+brwb3 chain 2: warmup call 875, elapsed 5015.4 s
+brwb3 chain 4: warmup call 300, elapsed 5021.2 s
+brwb3 chain 2: warmup call 900, elapsed 5041.7 s
+brwb3 chain 4: warmup call 325, elapsed 5056.3 s
+brwb3 chain 2: warmup call 925, elapsed 5067.7 s
+brwb3 chain 4: warmup call 350, elapsed 5093.7 s
+brwb3 chain 2: warmup call 950, elapsed 5104.8 s
+brwb3 chain 4: warmup call 375, elapsed 5162.2 s
+brwb3 chain 2: warmup call 975, elapsed 5184.6 s
+brwb3 chain 4: warmup call 400, elapsed 5195.8 s
+brwb3 chain 4: warmup call 425, elapsed 5228.5 s
+brwb3 chain 2: warmup call 1000, elapsed 5238.9 s
+brwb3 chain 2: saved 1/1000 retained draws
+brwb3 chain 4: warmup call 450, elapsed 5261.8 s
+brwb3 chain 2: sampling call 1025, elapsed 5303.8 s
+brwb3 chain 4: warmup call 475, elapsed 5318.1 s
+brwb3 chain 4: warmup call 500, elapsed 5365.5 s
+brwb3 chain 2: sampling call 1050, elapsed 5370.1 s
+brwb3 chain 4: warmup call 525, elapsed 5393.1 s
+brwb3 chain 4: warmup call 550, elapsed 5420.0 s
+brwb3 chain 2: sampling call 1075, elapsed 5426.3 s
+brwb3 chain 4: warmup call 575, elapsed 5463.1 s
+brwb3 chain 2: saved 100/1000 retained draws
+brwb3 chain 2: sampling call 1100, elapsed 5474.2 s
+brwb3 chain 4: warmup call 600, elapsed 5500.2 s
+brwb3 chain 2: sampling call 1125, elapsed 5518.7 s
+brwb3 chain 4: warmup call 625, elapsed 5546.8 s
+brwb3 chain 2: sampling call 1150, elapsed 5580.7 s
+brwb3 chain 4: warmup call 650, elapsed 5601.3 s
+brwb3 chain 4: warmup call 675, elapsed 5648.1 s
+brwb3 chain 2: sampling call 1175, elapsed 5665.0 s
+brwb3 chain 4: warmup call 700, elapsed 5694.2 s
+brwb3 chain 4: warmup call 725, elapsed 5733.7 s
+brwb3 chain 2: saved 200/1000 retained draws
+brwb3 chain 2: sampling call 1200, elapsed 5738.6 s
+brwb3 chain 4: warmup call 750, elapsed 5794.4 s
+brwb3 chain 2: sampling call 1225, elapsed 5803.2 s
+brwb3 chain 4: warmup call 775, elapsed 5836.5 s
+brwb3 chain 2: sampling call 1250, elapsed 5858.9 s
+brwb3 chain 4: warmup call 800, elapsed 5879.9 s
+brwb3 chain 2: sampling call 1275, elapsed 5915.9 s
+brwb3 chain 4: warmup call 825, elapsed 5937.6 s
+brwb3 chain 4: warmup call 850, elapsed 5986.7 s
+brwb3 chain 2: saved 300/1000 retained draws
+brwb3 chain 2: sampling call 1300, elapsed 5987.8 s
+brwb3 chain 4: warmup call 875, elapsed 6036.8 s
+brwb3 chain 2: sampling call 1325, elapsed 6051.4 s
+brwb3 chain 4: warmup call 900, elapsed 6086.2 s
+brwb3 chain 2: sampling call 1350, elapsed 6111.7 s
+brwb3 chain 4: warmup call 925, elapsed 6134.4 s
+brwb3 chain 4: warmup call 950, elapsed 6183.8 s
+brwb3 chain 2: sampling call 1375, elapsed 6194.8 s
+brwb3 chain 4: warmup call 975, elapsed 6242.0 s
+brwb3 chain 2: saved 400/1000 retained draws
+brwb3 chain 2: sampling call 1400, elapsed 6260.0 s
+brwb3 chain 4: warmup call 1000, elapsed 6300.4 s
+brwb3 chain 4: saved 1/1000 retained draws
+brwb3 chain 2: sampling call 1425, elapsed 6314.9 s
+brwb3 chain 4: sampling call 1025, elapsed 6357.8 s
+brwb3 chain 2: sampling call 1450, elapsed 6366.4 s
+brwb3 chain 4: sampling call 1050, elapsed 6407.1 s
+brwb3 chain 2: sampling call 1475, elapsed 6418.2 s
+brwb3 chain 4: sampling call 1075, elapsed 6457.5 s
+brwb3 chain 2: saved 500/1000 retained draws
+brwb3 chain 2: sampling call 1500, elapsed 6465.4 s
+brwb3 chain 4: saved 100/1000 retained draws
+brwb3 chain 4: sampling call 1100, elapsed 6504.8 s
+brwb3 chain 2: sampling call 1525, elapsed 6509.1 s
+brwb3 chain 4: sampling call 1125, elapsed 6546.3 s
+brwb3 chain 2: sampling call 1550, elapsed 6566.8 s
+brwb3 chain 4: sampling call 1150, elapsed 6592.0 s
+brwb3 chain 2: sampling call 1575, elapsed 6604.9 s
+brwb3 chain 4: sampling call 1175, elapsed 6633.8 s
+brwb3 chain 2: saved 600/1000 retained draws
+brwb3 chain 2: sampling call 1600, elapsed 6647.9 s
+brwb3 chain 4: saved 200/1000 retained draws
+brwb3 chain 4: sampling call 1200, elapsed 6677.2 s
+brwb3 chain 2: sampling call 1625, elapsed 6701.3 s
+brwb3 chain 2: sampling call 1650, elapsed 6754.1 s
+brwb3 chain 4: sampling call 1225, elapsed 6759.4 s
+brwb3 chain 2: sampling call 1675, elapsed 6820.1 s
+brwb3 chain 4: sampling call 1250, elapsed 6821.3 s
+brwb3 chain 4: sampling call 1275, elapsed 6880.8 s
+brwb3 chain 2: saved 700/1000 retained draws
+brwb3 chain 2: sampling call 1700, elapsed 6885.1 s
+brwb3 chain 2: sampling call 1725, elapsed 6952.8 s
+brwb3 chain 4: saved 300/1000 retained draws
+brwb3 chain 4: sampling call 1300, elapsed 6955.4 s
+brwb3 chain 2: sampling call 1750, elapsed 7011.2 s
+brwb3 chain 4: sampling call 1325, elapsed 7012.9 s
+brwb3 chain 2: sampling call 1775, elapsed 7062.6 s
+brwb3 chain 4: sampling call 1350, elapsed 7066.0 s
+brwb3 chain 2: saved 800/1000 retained draws
+brwb3 chain 2: sampling call 1800, elapsed 7125.9 s
+brwb3 chain 4: sampling call 1375, elapsed 7133.7 s
+brwb3 chain 2: sampling call 1825, elapsed 7197.1 s
+brwb3 chain 4: saved 400/1000 retained draws
+brwb3 chain 4: sampling call 1400, elapsed 7210.8 s
+brwb3 chain 2: sampling call 1850, elapsed 7268.3 s
+brwb3 chain 4: sampling call 1425, elapsed 7293.2 s
+brwb3 chain 2: sampling call 1875, elapsed 7343.6 s
+brwb3 chain 4: sampling call 1450, elapsed 7366.5 s
+brwb3 chain 2: saved 900/1000 retained draws
+brwb3 chain 2: sampling call 1900, elapsed 7417.7 s
+brwb3 chain 4: sampling call 1475, elapsed 7443.6 s
+brwb3 chain 2: sampling call 1925, elapsed 7482.3 s
+brwb3 chain 4: saved 500/1000 retained draws
+brwb3 chain 4: sampling call 1500, elapsed 7519.9 s
+brwb3 chain 2: sampling call 1950, elapsed 7552.5 s
+brwb3 chain 4: sampling call 1525, elapsed 7592.5 s
+brwb3 chain 2: sampling call 1975, elapsed 7626.7 s
+brwb3 chain 4: sampling call 1550, elapsed 7668.5 s
+brwb3 chain 2: saved 1000/1000 retained draws
+brwb3 chain 2: sampling call 2000, elapsed 7700.2 s
+brwb3 chain 4: sampling call 1575, elapsed 7742.9 s
+brwb3 chain 4: saved 600/1000 retained draws
+brwb3 chain 4: sampling call 1600, elapsed 7808.9 s
+brwb3 chain 4: sampling call 1625, elapsed 7872.6 s
+brwb3 chain 4: sampling call 1650, elapsed 7929.9 s
+brwb3 chain 4: sampling call 1675, elapsed 7987.4 s
+brwb3 chain 4: saved 700/1000 retained draws
+brwb3 chain 4: sampling call 1700, elapsed 8050.8 s
+brwb3 chain 4: sampling call 1725, elapsed 8113.0 s
+brwb3 chain 4: sampling call 1750, elapsed 8187.8 s
+brwb3 chain 4: sampling call 1775, elapsed 8255.9 s
+brwb3 chain 4: saved 800/1000 retained draws
+brwb3 chain 4: sampling call 1800, elapsed 8320.8 s
+brwb3 chain 4: sampling call 1825, elapsed 8382.2 s
+brwb3 chain 4: sampling call 1850, elapsed 8444.9 s
+brwb3 chain 4: sampling call 1875, elapsed 8532.2 s
+brwb3 chain 4: saved 900/1000 retained draws
+brwb3 chain 4: sampling call 1900, elapsed 8598.2 s
+brwb3 chain 4: sampling call 1925, elapsed 8678.0 s
+brwb3 chain 4: sampling call 1950, elapsed 8747.8 s
+brwb3 chain 4: sampling call 1975, elapsed 8816.5 s
+brwb3 chain 4: saved 1000/1000 retained draws
+brwb3 chain 4: sampling call 2000, elapsed 8885.8 s
+Completed brwb3: posterior_diagnostics_failed
+Depth refinement: complete; accepted: false
+Test Summary:                        | Pass  Total       Time
+Bounded depth-9 refinement integrity |   23     23  150m23.4s

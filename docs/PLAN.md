@@ -357,8 +357,21 @@ doi:10.1098/rsos.180964. Data and code: doi:10.5061/dryad.321d33v (Zenodo record
   the scientific replay passes 3,249 checks, and an independent audit verifies
   168 hashes, 1,400 runtime events, all 400 raw retained statistics, and the
   screen decision. The corrected launcher captures native exit code 0.
-  Next, use depth 9 in a separately bounded longer four-chain fit; preserve
-  the divergence stop, runtime records, and unchanged acceptance criteria.
+  The subsequent bounded depth-9 refinement completes four fresh chains with
+  1,000 discarded calls and 1,000 retained draws each. Sampling finishes in
+  8,885.8 seconds within the 10,800-second limit, with zero divergences.
+  Maximum R-hat 1.00684 and minimum bulk ESS 727.28 pass, but minimum tail ESS
+  390.54 (`ks4`) and 1,904 depth hits (47.6%) fail the unchanged gate.
+  Per-chain depth hits are 7, 784, 297, and 816. Minimum bulk/tail ESS per
+  retained leapfrog falls by 30%/51% relative to the short depth-9 pilot;
+  the first/last 100-draw blocks also retain poor mixing diagnostics.
+  All 25,749 scientific replay checks and 23 driver integrity assertions pass.
+  The runtime audit verifies 8,000 events and all 4,000 raw retained statistics;
+  12 cost profiles complete. An independent audit verifies 169 hashes and
+  native exit code 0. The fit remains unaccepted despite passing integrity.
+  Next, diagnose `ks4` tail mixing and persistent depth saturation, especially
+  in chains 2 and 4, before defining another bounded sampler experiment.
+  Do not extend the same run or relax its acceptance criteria.
   Converged benchmark fits and a like-for-like PSIS-LOO comparison
   remain open; original posterior outputs are absent from the source archive.
   See `docs/cocoa_benchmark.md`.

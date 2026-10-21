@@ -775,32 +775,90 @@ checks, and corrected native exit receipt provide this run's validation.
 
 ## Longer depth-9 convergence attempt
 
-The local refinement `bayes_brwb3_depth_refinement1/` follows the passing
-exploratory screen above. Four fresh chains each discard 1,000
+The [declared refinement](bayes_brwb3_depth_refinement1/experiment.toml) follows
+the passing exploratory screen above. Four fresh chains each discard 1,000
 calls and target 1,000 retained draws, with initialization included in the
 discard count. Depth 9, target acceptance 0.995, the same four seeds, two
 threads, Tsit5 `1e-8`, the source interval ODE budget, and retry guard remain
 fixed. Priors, equations, observations, and units are unchanged. No earlier
 draws or adaptation state are resumed or pooled. Predictive selection increases
-to 500 draws if the fit completes.
+to 500 draws.
 
-The driver `experiment.jl` records a 10,800-second sampling limit and a stop on
-any retained divergence. Its watchdog `watchdog.ps1` allows 12,600 seconds for
+The [driver](bayes_brwb3_depth_refinement1/experiment.jl) records a 10,800-second
+sampling limit and a stop on any retained divergence. Its
+[watchdog](bayes_brwb3_depth_refinement1/watchdog.ps1) allows 12,600 seconds for
 the launched process, including loading and postprocessing, and retains the
 native process handle to capture its exit code. The declared acceptance rule
 remains R-hat below 1.01, bulk and tail ESS at least 400 for every parameter,
 zero retained divergences, and zero depth hits across four complete chains.
 
-On completion, the plan replays all 4,000 likelihood draws and 500 selected
-latent predictions, validates all 8,000 runtime events against raw retained
-statistics, profiles selected states, and saves full-run and matched 100-draw
-block comparisons. A stopped run receives only partial-checkpoint and completed
-runtime-event audits, without joint convergence or posterior-export claims.
-Changes in both adaptation and retained length prevent attributing improvements
-to either alone. The comparison code passes its eight-check preflight on the
-audited pilot.
+All four chains complete their 2,000 calls and 1,000 retained draws. No retained
+divergence, soft timeout, or watchdog termination occurs. The last callback is
+at 8,885.8 seconds; the driver test set, including export and audits, takes
+150m23.4s. The [process receipt](bayes_brwb3_depth_refinement1.process.json)
+records native exit code 0. The comparison code also passes its eight-check
+[preflight](bayes_brwb3_depth_refinement1.preflight.log) on the audited pilot.
 
-Sampling is in progress; no convergence result is claimed yet. The active run
-and its sidecars are temporarily ignored by Git so commits cannot capture
-partial outputs. Remove those two scoped ignore rules and publish the artifacts
-when the run and its audits are finalized.
+| Metric | Depth-9 pilot | Longer depth-9 fit |
+|---|---:|---:|
+| Discarded calls per chain | 250 | 1,000 |
+| Retained draws | 400 | 4,000 |
+| Maximum R-hat | 1.05479 | 1.00684 |
+| Minimum bulk / tail ESS | 96.72 / 74.07 | 727.28 / 390.54 |
+| Retained divergences | 0 | 0 |
+| Depth-limit hits | 133 (33.25%) | 1,904 (47.60%) |
+| Retained leapfrog steps | 152,048 | 1,630,468 |
+| Minimum bulk / tail ESS per 1,000 retained leapfrogs | 0.6361 / 0.4871 | 0.4461 / 0.2395 |
+| Elapsed sampling seconds | 2,144.1 | 8,885.8 |
+
+The [fit report](bayes_brwb3_depth_refinement1/fit/brwb3/report.toml) remains
+`posterior_diagnostics_failed`. Every parameter passes R-hat and bulk ESS, but
+`ks4` has tail ESS 390.54, below 400. Depth hits persist, with per-chain counts
+7, 784, 297, and 816. Sixteen divergences occur in discarded warmup, with none
+in retained sampling. Artifact integrity does not override this failed gate.
+
+The [full comparison](bayes_brwb3_depth_refinement1/refinement_comparison.csv)
+shows minimum bulk/tail ESS per retained leapfrog falling by about 30%/51%.
+ESS per draw also falls, from 0.2418/0.1852 to 0.1818/0.0976. These minima
+need not identify the same parameter in each run. Measured ESS per elapsed
+second rises to 0.08185/0.04395, but wall time includes warmup, compilation,
+scheduling, and GC; one seed set does not establish reproducible efficiency.
+
+The [matched blocks](bayes_brwb3_depth_refinement1/matched_blocks.csv) each
+contain 100 draws per chain. Maximum R-hat is 1.12843 in the refinement's
+first block and 1.20979 in its last block; minimum bulk/tail ESS is 23.63/38.35
+and 14.91/16.27, respectively. These short-block diagnostics are descriptive,
+not additional acceptance thresholds or evidence of a monotonic trend.
+Changing both adaptation and retained length prevents attributing differences
+to either alone. The next step is diagnosis of `ks4` tail mixing and persistent
+depth saturation in chains 2 and 4 before defining another bounded sampler
+experiment. This result does not justify extending the same run or relaxing
+its criteria.
+
+The [scientific audit](bayes_brwb3_depth_refinement1/fit.audit.toml) passes
+25,749 checks, replaying all 4,000 draws, 384,000 pointwise likelihood values,
+and 500 selected latent predictions. Observation-noise draws are unavailable;
+measurement bands receive structural and unit checks only. The
+[runtime validation](bayes_brwb3_depth_refinement1/runtime_diagnostics/settings.toml)
+checks all 8,000 events and exact agreement of every retained statistic with
+the raw-chain export. The driver passes 23 integrity assertions. The independent
+[Python checker](bayes_brwb3_depth_refinement1.audit.py) verifies 169 hashes,
+diagnostic/work ratios, unchanged acceptance, and native exit code 0 in its
+[report](bayes_brwb3_depth_refinement1.audit.json). Parent artifacts, implementation
+hashes, and environment hashes remain unchanged.
+
+All 12 [selected cost profiles](bayes_brwb3_depth_refinement1/runtime_diagnostics/brwb3/costs.csv)
+complete. Median gradient times range from 3.86 to 49.36 ms. Chain 3 draw 272
+requires the most ODE work among these states: 941 accepted and 774 rejected
+steps. Its recorded retained-call completion gap is the longest, 29.29 seconds.
+The selected states do not reconstruct Hamiltonian paths or discarded warmup,
+and timing includes scheduling and GC; these profiles do not establish a cause
+for depth saturation. Median retained completion gaps are 1.17, 2.37, 2.02,
+and 2.68 seconds by chain.
+
+No production model, prior, parameter file, or dependency changes accompany
+this run. The latest full package suite remains the preceding 1,454-pass run
+with one expected cocoa figure failure. This experiment receives the new
+preflight, replay, runtime, and independent integrity checks described above.
+The finalized artifacts are eligible for version control; Git attributes
+preserve raw and processed research bytes across platform line endings.

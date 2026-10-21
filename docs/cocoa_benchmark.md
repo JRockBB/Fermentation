@@ -512,8 +512,33 @@ The runtime audit checks 1,400 events and all 400 retained statistics;
 12 selected profiles complete. An independent audit verifies 168 hashes,
 recomputes the comparison decision, and confirms native exit code 0 from the
 corrected launcher. No production source, model, prior, parameter file, or
-dependency changes accompany this experiment. The next step is a separately
-bounded longer four-chain fit at depth 9 with the existing stops and gates.
+dependency changes accompany this experiment.
+
+The [longer depth-9 refinement](../data/processed/cocoa_benchmark/fits/README.md#longer-depth-9-convergence-attempt)
+subsequently completes 4,000 retained draws across four fresh chains, each
+with 1,000 discarded calls. Sampling finishes in 8,885.8 seconds within its
+10,800-second limit, with no retained divergence. Maximum R-hat 1.00684 and
+minimum bulk ESS 727.28 pass, but minimum tail ESS 390.54 for `ks4` is below
+400. There are 1,904 depth-limit hits (47.6%), concentrated in chains 2 and 4.
+The fit remains unaccepted under the unchanged rule.
+
+The longer run's minimum bulk/tail ESS per retained leapfrog falls by 30%/51%
+relative to the pilot. Its first and last 100-draw blocks have maximum R-hat
+1.12843 and 1.20979, respectively. These short blocks are descriptive, and
+changes in both warmup and retained length prevent attributing differences to
+either alone. The improved full-run R-hat does not resolve the failed gate.
+The next step is diagnosis of `ks4` tail mixing and persistent depth saturation
+before another bounded sampler experiment, rather than extending this run.
+
+All 25,749 scientific checks pass, including replay of 384,000 pointwise
+likelihood values and 500 selected latent predictions. The runtime audit
+checks 8,000 events and exact correspondence with all 4,000 raw retained
+statistics; 12 state-cost profiles complete. The driver passes 23 integrity
+assertions, and an independent audit verifies 169 hashes and native exit code
+0. Source data, equations, priors, numerical controls other than the declared
+run lengths, and implementation hashes remain unchanged. Observation-noise
+draws were not saved, so measurement bands receive structural and unit checks
+only. No PSIS-LOO score or accepted predictive comparison is claimed.
 
 Tests check immutable archive contents, all trial dimensions and scales,
 the three overlapping 2018 datasets, seven-series state reordering, strict
@@ -594,9 +619,9 @@ The required `Pkg.test()` run on Julia 1.10.11 passes 1,454 checks with the
 one existing expected cocoa figure failure (18 minutes 44.3 seconds in the
 test summary). Both Julia validations use two threads and normal compiled
 modules. Historical artifacts were not rewritten.
-That full-suite result predates the depth comparison; the new experiment
-received its own replay and integrity checks without repeating unchanged
-package tests.
+That full-suite result predates the depth comparison and longer refinement;
+both new experiments received their own replay and integrity checks without
+repeating unchanged package tests.
 
 P2.5 remains open until baseline fits are adequately converged and a
 like-for-like predictive comparison is available. A bounded initial survey

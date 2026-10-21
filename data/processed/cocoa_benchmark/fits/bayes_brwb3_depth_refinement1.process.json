@@ -1,0 +1,15 @@
+﻿{
+    "status":  "exited",
+    "process_id":  13592,
+    "started_utc":  "2026-10-21T19:49:16.6169173Z",
+    "watchdog_seconds":  12600,
+    "watchdog_scope":  "Only the Julia process started by this wrapper; includes package loading and postprocessing.",
+    "exit_code_capture":  "Native process handle retained before WaitForExit; missing exit code fails the launcher.",
+    "stdout":  "bayes_brwb3_depth_refinement1.stdout.log",
+    "stderr":  "bayes_brwb3_depth_refinement1.stderr.log",
+    "exit_code":  0,
+    "native_exit_code":  0,
+    "finished_utc":  "2026-10-21T22:20:34.6064044Z",
+    "stdout_sha256":  "88c6cfd3c1c9298cb87721c8d60d6cf323f3a97c58fbc58851aaf99d17ec01ed",
+    "stderr_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
