@@ -1,0 +1,3 @@
+status = "interrupted"
+reason = "Replaced by a smaller MLE pilot using observation-only ODE output. The ten-start run produced no final estimates."
+replacement = "camu_mle_pilot"

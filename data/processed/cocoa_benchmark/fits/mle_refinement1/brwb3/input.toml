@@ -1,0 +1,49 @@
+hidden_lactate = false
+initial_normalized = [1.0, 1.0, 0.0, 0.0, 0.0, 0.000901571175203319, 0.012912193218021083, 0.059703469140307705]
+seed = 141100
+source_branch = 16
+source_file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/posteriors/post_sims1.R"
+source_sha256 = "dc2106c811185ffb73bebfb890cf07504616f4ad707f87fae001e959e5c621fc"
+state_order = ["G", "F", "E", "L", "A", "Xy", "Xl", "Xa"]
+times_h = [12.0, 24.0, 36.0, 48.0, 60.0, 72.0, 84.0, 96.0, 108.0, 120.0, 132.0, 144.0]
+
+[optimizer_initial]
+k1 = 1.3890943941970355
+k2 = 0.022953232632248997
+k3 = 3.7917954220339976
+ks1 = 0.18745023635979782
+ks2 = 2.415917065280578
+ks3 = 1.6656842724833918
+ks4 = 0.6911669924388076
+ks5 = 4.999330540341596
+mu1 = 0.9802877733117838
+mu2 = 0.6318756996216909
+mu3 = 1.040713911026787
+mu4 = 0.17356168590798104
+mu5 = 2.0353110252392717
+sigma = 0.15673384665631065
+yc1 = 0.0729437770358931
+yc10 = 0.13688456274436653
+yc11 = 0.0344850309446002
+yc2 = 0.34390076682944215
+yc3 = 0.500081825105372
+yc4 = 0.03775586200473625
+yc5 = 0.5250124533291335
+yc6 = 0.3056629906212361
+yc7 = 1.2063097130854818
+yc8 = 0.08143951769294305
+yc9 = 0.001579189932479759
+
+[restart]
+adjusted_parameters = []
+candidate_start = 1
+directory = "data/processed/cocoa_benchmark/fits/mle_pilot"
+log_range_margin = 1.0e-8
+previous_accepted = false
+previous_status = "unverified_candidate"
+
+    [restart.files_sha256]
+    "brwb3/input.toml" = "e80a22e60185d59707de7254c76f550946b672684cf739de240e6a2790cc5a92"
+    "brwb3/report.toml" = "9db85cb9b4f42946f243f4a7768bc9d329987019d109d7956c613b1fbb402047"
+    "brwb3/start_001.toml" = "595be87f069f089d20207ffd4fae5a95e45659d90494ec562d462f46cb4faf3e"
+    "settings.toml" = "0676bee7e40bdd0c27772832dbcdadf64203ab7cba1c1685e1db7dc1cc5686d5"

@@ -1,0 +1,12 @@
+hidden_lactate = false
+initial_normalized = [1.0, 1.0, 0.0, 0.0, 0.0, 0.000901571175203319, 0.012912193218021083, 0.059703469140307705]
+seed = 141100
+solver_max_step_attempts = 500
+solver_maxiters = 10000
+solver_maxiters_scope = "solve"
+source_branch = 16
+source_file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/posteriors/post_sims1.R"
+source_sha256 = "dc2106c811185ffb73bebfb890cf07504616f4ad707f87fae001e959e5c621fc"
+state_order = ["G", "F", "E", "L", "A", "Xy", "Xl", "Xa"]
+times_h = [12.0, 24.0, 36.0, 48.0, 60.0, 72.0, 84.0, 96.0, 108.0, 120.0, 132.0, 144.0]
+trial = "brwb3"

@@ -1,0 +1,4 @@
+trial,field,transcribed_value,verified_value,table,page
+ecpt2,min_tail_ess,1904,2000,S5,15
+brwb7,mean_ess_fraction,0.501,0.514,S6,15
+mywb3,mean_ess_fraction,0.514,0.501,S6,15

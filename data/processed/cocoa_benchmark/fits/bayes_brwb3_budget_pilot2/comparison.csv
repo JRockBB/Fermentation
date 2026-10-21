@@ -1,0 +1,5 @@
+chain,solve_draws,interval_draws,common_draws,common_checkpoint_rows_identical,max_parameter_difference
+1,25,25,25,true,0.0
+2,25,25,25,true,0.0
+3,25,25,25,true,0.0
+4,25,25,25,true,0.0

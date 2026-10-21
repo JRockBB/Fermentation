@@ -1,0 +1,7 @@
+hidden_lactate = false
+initial_normalized = [0.9350760398216577, 1.0, 0.025604211533859774, 0.0, 0.2672106068332483, 0.0008629782973925376, 0.0015488170604532848, 0.0005357963832602548]
+source_branch = 6
+source_file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/posteriors/post_sims1.R"
+source_sha256 = "dc2106c811185ffb73bebfb890cf07504616f4ad707f87fae001e959e5c621fc"
+state_order = ["G", "F", "E", "L", "A", "Xy", "Xl", "Xa"]
+times_h = [6.0, 12.0, 18.0, 24.0, 30.0, 36.0, 42.0, 48.0, 54.0, 60.0, 66.0, 72.0, 84.0, 96.0]

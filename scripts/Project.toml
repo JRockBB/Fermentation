@@ -1,0 +1,8 @@
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+FermentModels = "bfb526fd-ba2f-4a34-a1e8-60b9415d8e58"
+
+[compat]
+CairoMakie = "0.15.15"
+FermentModels = "0.1"
+julia = "1.10.8"

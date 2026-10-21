@@ -1,0 +1,16 @@
+fit_converged = true
+fit_report_sha256 = "da4c067cb38c174503cfdd5a64212e4d7aa2e0fcd4a4583606f4303221f81052"
+mean_comparison_accepted = true
+mean_max_fraction_error = 0.019695282682291686
+mean_outside_tolerance = 0
+median_comparison_accepted = false
+median_max_fraction_error = 0.02069035489143965
+median_outside_tolerance = 1
+points = 56
+predictive_sha256 = "68cdb3f2eb27a8208c5663271507d71470e3dedce869dd46addfb87aa19453be"
+reference = "doi:10.1098/rsos.180964 Figures 3-5"
+reference_sha256 = "6217374d3126f89ef26af9aa1255bb6c82693e82e351b5809ba950cfeec7992d"
+script = "scripts/compare_cocoa_fit.jl"
+source_summary_identified = false
+tolerance_fraction = 0.02
+trial = "box2"

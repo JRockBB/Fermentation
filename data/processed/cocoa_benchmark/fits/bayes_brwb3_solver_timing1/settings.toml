@@ -1,0 +1,40 @@
+completed_utc = "2026-10-20T20:02:23.151"
+cpu_name = "znver3"
+cpu_threads = 16
+julia_threads = 1
+julia_version = "1.10.11"
+limitations = "Warm-compiled model-gradient timings under shared machine load, not end-to-end NUTS timings. Cases alternate within each repetition. Selected retained points do not cover all trajectories."
+per_chain_grid = 1
+points = 10
+repeats = 5
+script_sha256 = "4bb903d60bc94cc5f1215ecb72e82792c6b022b7aad2f2f5e6bb0b5fbb01d580"
+solver_maxiters = 10000
+started_utc = "2026-10-20T20:01:09.447"
+tail_parameters = ["yc11"]
+timed_gradients = 150
+
+[environment_sha256]
+"Manifest-v1.10.toml" = "5314acb1fe3b1ca79c88381b86cc129c41dae62de2ae792d520c8ebeb0fedca9"
+"Project.toml" = "0cf20f3aa93bb51dbb3002938c78290827c42ceabbe948e132c2e31e65819173"
+
+[implementation_sha256]
+"scripts/diagnose_cocoa_bayes.jl" = "3747328b91125276b8ac60dc49ea9de88aa07c02a91db626a016fe6138f3a55a"
+"scripts/fit_cocoa_benchmark_bayes.jl" = "49be2073d4129cb3fddee9c3b72efa12ff495f40056d954f1b62cff864ae2452"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "b838ae862f3183a8e711186e84873b1d2621ef7bf2e37197fbbf709f657fe2b5"
+"src/core/bayes.jl" = "0d470bd9860d6890f4238db6038d2e8d5ebc664e81622ffee4944ad908097211"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"
+
+[parent]
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_ghhp4_v2"
+parent_settings_sha256 = "68f79f3951bd8dabe427041cf57cb3fc28f3567fcb47cbd90b7da889a7c3e98b"
+parent_status = "posterior_diagnostics_failed"
+source_sha256 = "dc2106c811185ffb73bebfb890cf07504616f4ad707f87fae001e959e5c621fc"
+
+    [parent.parent_files_sha256]
+    "chain_001.csv" = "7923d0469200b4e38694ac9fa07d0d2b83e7898a949885536c67a64f75111911"
+    "chain_002.csv" = "77320c9678d8aab5a8811152a4df60c0794d23eab022f51202c7d2c1a12d590e"
+    "input.toml" = "3fdefb7e4d20b0db3eaef7faebefc3524bfeccff4c006725470d166287386ddf"
+    "priors.toml" = "77adc8e546b5f88be07b8ca03bdeeea1caf007cc3ee2a969635d77dfd1390367"
+    "report.toml" = "e5dd298d6680dd9909b5604c2bff9ce959d79c1a30258222d2933a00a624f411"

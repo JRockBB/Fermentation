@@ -1,0 +1,4 @@
+completed = false
+accepted = false
+reason = "Interrupted during warmup. All four checkpoint files contain only headers; no retained draws or final report. Another concurrently launched Julia job hit the Windows paging-file limit. The batch was no longer running when work resumed."
+execution_followup = "Use one Julia process at a time; preserve independent chains within that process."

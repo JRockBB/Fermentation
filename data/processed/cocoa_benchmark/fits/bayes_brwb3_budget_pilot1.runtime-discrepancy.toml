@@ -1,0 +1,8 @@
+runtime_integrity_passed = false
+fit_accepted = false
+finding = "In both cases, chain 3 retained draw 1 has checkpoint tree depth 7 but runtime tree depth 8. Independent per-row runtime/checkpoint comparison rejected these logs."
+cause = "The callback assigned diagnostics in a closure sharing the outer fit summary variable. Another callback could overwrite this boxed variable while checkpoint I/O yielded inside the lock."
+scope = "The paired parameter draws and independently replayed likelihoods remain valid historical computations. Completed-fit audits checked scientific exports and aggregate flags, not runtime-row correspondence. No sampling acceptance is claimed."
+historical_limitation = "The earlier callback also shared the outer diagnostics variable. Historical threaded per-draw diagnostic fields cannot be certified against unavailable raw sampler transitions. Parameter draws and diagnostics computed from the raw chain do not use this shared callback value."
+preservation = "Original files and audits are unchanged. The exact intermediate callback implementation was reconstructed and its SHA-256 checked against the saved settings before saving the adjacent callback-source.jl snapshot."
+remedy = "Isolate each callback's transition diagnostics in a separate factory scope, test forced task interleaving, and run a fresh paired pilot. Do not overwrite or relabel these files."

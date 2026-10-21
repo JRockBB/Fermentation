@@ -1,0 +1,20 @@
+changes = "4 chains, 2000 retained draws and 1000 warmup per chain; 4 Julia threads."
+command = "julia --startup-file=no --check-bounds=yes --threads=4 --project scripts/fit_cocoa_benchmark_bayes.jl --output=data/processed/cocoa_benchmark/fits/bayes_ghhp4_refinement1 --scope=all --trials=ghhp4 --samples=2000 --warmup=1000 --chains=4 --target_accept=0.995 --max_depth=12 --predictive_draws=500 --chain_execution=threads"
+not_a_resume = "Fresh NUTS adaptation and prior initialization; previous draws are not pooled."
+output_directory = "data/processed/cocoa_benchmark/fits/bayes_ghhp4_refinement1"
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_ghhp4_v2"
+reason = "Parent minimum tail ESS 98.6437 is below 200; use archived four-chain sample/warmup counts."
+recorded_before_sampling_utc = "2026-10-20T17:18:53.876"
+unchanged = "Equations, data, priors, target acceptance 0.995, tree depth 12, solver/tolerances/cap, and diagnostic rules."
+
+[environment_sha256]
+"Manifest-v1.10.toml" = "5314acb1fe3b1ca79c88381b86cc129c41dae62de2ae792d520c8ebeb0fedca9"
+"Project.toml" = "0cf20f3aa93bb51dbb3002938c78290827c42ceabbe948e132c2e31e65819173"
+
+[parent_sha256]
+"ghhp4/chain_001.csv" = "a8b1bc5a3d742f1514a90a95338ec15d279787de209638f3b1d3199a723a0242"
+"ghhp4/chain_002.csv" = "bd60435b44d4b84349fc17a92bc88a9c202ac4555e41528e1c8faed11f507424"
+"ghhp4/input.toml" = "ce5fd441f2d664868a0231d28d89ef1c494e3a695a5c60cc5d03c5e68b95d7f5"
+"ghhp4/priors.toml" = "9ab2a0cd0af87677f7833e30125b6142499b1133cfde067c56a83bad3c1e42e3"
+"ghhp4/report.toml" = "0d6acf5200e671a6221637c67fe8b8bd4fa49d9b81a0d82ed8912d9175981028"
+"settings.toml" = "68f79f3951bd8dabe427041cf57cb3fc28f3567fcb47cbd90b7da889a7c3e98b"

@@ -1,0 +1,40 @@
+diagnostics_accept_fit = false
+julia_threads = 2
+julia_version = "1.10.11"
+limitations = "Elapsed completion gaps include scheduling, callback work, compilation, and GC. Seconds per leapfrog are not ODE timings. Retained/predecessor states do not reconstruct the sampled Hamiltonian path or a divergent leapfrog state. Replayed costs are warmed descriptive measurements, not a causal attribution or acceptance test. Warmup parameter states are not retained. Older runtime logs cannot recover these statistics."
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_adaptation_pilot1/fit"
+per_chain = 1
+profiled_states = 12
+repeats = 3
+retained_draws_checked = 400
+runtime_events_checked = 1400
+runtime_integrity_passed = true
+status = "complete"
+trials = ["brwb3"]
+
+[environment_sha256]
+"Manifest-v1.10.toml" = "5314acb1fe3b1ca79c88381b86cc129c41dae62de2ae792d520c8ebeb0fedca9"
+"Manifest.toml" = "0cd4693e30a9335349c9eaceeb65807e05adada07a92a3d3d8f59faaeb3149b0"
+"Project.toml" = "0cf20f3aa93bb51dbb3002938c78290827c42ceabbe948e132c2e31e65819173"
+
+[implementation_sha256]
+"scripts/diagnose_cocoa_bayes.jl" = "4700b471517e03d27541c062a9c00a90cc45817989f483b941a366f0bc20e546"
+"scripts/diagnose_cocoa_runtime.jl" = "27f00bfd0815647d9bab7be58fb1977a0734f918ec07d266ce9e4ab2f0ed0bba"
+"scripts/fit_cocoa_benchmark_bayes.jl" = "c770583e113f1005eac3c4e8e377e21ed643ecc0b01dc77fe9d879fd8db30092"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "1746903fd08f241cb5978cb6c83b653cfb2189aca95126ee8ef6baf58283ddc3"
+"src/core/bayes.jl" = "ba7ad0d251c3628cb4f14250ca47b55a2738e72eb05e0fdaa08176e83c40521e"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"
+
+[parent_sha256]
+"brwb3/chain_001.csv" = "0abea3eb3beecea160a2d44b4b569613b9dd27784336a3c93a62274b8896b827"
+"brwb3/chain_002.csv" = "5e89ef3ca17d9ce7c88caa42d5962925923f3eb671462734d0d70ff8a3a11538"
+"brwb3/chain_003.csv" = "7300b674b2a5c7a69a78e1a3a8db294776f39976407a2f6afd02fc0d6c5c4899"
+"brwb3/chain_004.csv" = "dfa256a45d84393f23cabd66c8d4ec4ced8bc3fef4c770851387c7a073015662"
+"brwb3/input.toml" = "d1adca2ec2b682aa696182cfe159c0c2dd98909e9f9550e4e62423ee3409f868"
+"brwb3/priors.toml" = "77adc8e546b5f88be07b8ca03bdeeea1caf007cc3ee2a969635d77dfd1390367"
+"brwb3/report.toml" = "36f97ae8f0f429598c720b757a04bbe505e84e0cc8e2615c1580fbbe40275c0e"
+"brwb3/runtime.csv" = "214bf00b2c984c7035452295fe37bb9d63ca619f19dbb7d630adb3a07a03fa10"
+"brwb3/sampler_statistics.csv" = "c62cbd24357470d91667263ab8a61adb1d26cdc0b34d9c17b0d6f2689c8cb54c"
+"settings.toml" = "e150164fb7793f4e36372d804f74f510a831b7d9ff33781718b6b3c71b21b080"

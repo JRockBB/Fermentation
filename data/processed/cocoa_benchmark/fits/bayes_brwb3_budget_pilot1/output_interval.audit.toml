@@ -1,0 +1,48 @@
+checks = 1449
+integrity_passed = true
+julia_version = "1.10.11"
+limitations = "Integrity is separate from MCMC acceptance and biological validity. Likelihood replay covers the recorded count per trial; other rows receive structural checks only. Latent bands are replayed completely. Observation-noise draws are unavailable; measurement bands receive only structural and unit checks. No PSIS-LOO score is computed."
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_budget_pilot1/output_interval"
+replay_per_chain = 25
+solver_budget_scope = "output_interval"
+solver_max_step_attempts = 500
+stan_budget_reference = "https://mc-stan.org/docs/2_24/stan-users-guide/control-parameters-for-ode-solving.html"
+
+[implementation_sha256]
+"scripts/audit_cocoa_benchmark_bayes.jl" = "1fa7061545bd18e737c73ae1063bc81f129688994f31b3a7201fcf3f0549f257"
+"scripts/cocoa_fit_output.jl" = "1d4a9558df03db171976a5c46577080d290546d3a2f3729a332d4d72213a8bf4"
+"scripts/diagnose_cocoa_bayes.jl" = "4700b471517e03d27541c062a9c00a90cc45817989f483b941a366f0bc20e546"
+"scripts/fit_cocoa_benchmark.jl" = "254d85a5b0e597d057459c1898bd822ddeb6327081164b19552ce44a8243dbff"
+"scripts/fit_cocoa_benchmark_bayes.jl" = "c75adcf53ec4e9337f79e752a205a1f5499453cbf8c656e5529751ee9b86deb2"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "1746903fd08f241cb5978cb6c83b653cfb2189aca95126ee8ef6baf58283ddc3"
+"src/core/bayes.jl" = "3ed1cfad674d319eb5456fd7e7242da6b493db93c8f6ef584b33c339a1cfc940"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"
+
+[parent_sha256]
+"brwb3/chain_001.csv" = "1f29b10ee611b68e54b98e12ef432b760055b21d96ef7049536beffd250d832d"
+"brwb3/chain_002.csv" = "a7aafcc95434ee49f513bd0fcdd1518ae5070024282bcc63121b562561c031c1"
+"brwb3/chain_003.csv" = "f70db154af4cc0b9e30d9c467eae1e36945f3f6090b7586bb1a3ddbd8e2a7b53"
+"brwb3/chain_004.csv" = "e437672ff9bcd8c936befd3cb6ec43d9a8c22ddd484bee2686cc62568d034479"
+"brwb3/input.toml" = "d1adca2ec2b682aa696182cfe159c0c2dd98909e9f9550e4e62423ee3409f868"
+"brwb3/likelihood_observations.csv" = "040f9c19e054dd3e7c36d2b4ba7732577d44f42e427ffa6c58393e69f2c28cd4"
+"brwb3/log_likelihood.csv" = "4dbe546a13737796a541f1bee9d81b974edc41de3ca8fbb9e1e198a0e291070a"
+"brwb3/parameters.csv" = "c55d76e0a4cfa520ddd8e023311db1ab285d71108bb763f17533aaa092bf8ce6"
+"brwb3/predictive.csv" = "5335f9fb71823fb8dedec5e91c0ef40f83fad504a26200d525424a779e6bf22e"
+"brwb3/predictive_selection.csv" = "0c3fb04de0b9b2fac4d07eb70bbf659edc6b86760040087b09f8840c8a7c51d8"
+"brwb3/priors.toml" = "77adc8e546b5f88be07b8ca03bdeeea1caf007cc3ee2a969635d77dfd1390367"
+"brwb3/report.toml" = "a916c8b9d699ebf35d9a0b224fccc199ea18f7ff8b6beff9cb1fe41529523875"
+"comparison.csv" = "7a3117e88de35564dca3f37bddde1a2c10a92d23c5681ad5b44a822f42a35e2d"
+"settings.toml" = "e381ac2a0d60ad6074324af1454f72d42392842afa516c705aa7082d293af60e"
+
+[trials.brwb3]
+checks = 1426
+integrity_passed = true
+latent_predictive_draws_replayed = 50
+likelihood_draws_replayed = 100
+likelihood_replay_complete = true
+likelihood_rows_checked = 100
+likelihood_values_checked = 9600
+sampling_diagnostics_passed = false
+status = "posterior_diagnostics_failed"

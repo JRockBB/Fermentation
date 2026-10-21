@@ -1,0 +1,449 @@
+Sampling 1/1 brwb3
+julia.exe : ┌ Warning: Verbosity toggle: max_iters 
+At line:10 char:1
++ & 'C:/Users/jmurp/.julia/juliaup/julia-1.10.11+0.x64.w64.mingw32/bin/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (┌ Warning: Verbosity toggle: max_iters :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 1/2000 retained draws
+brwb3 chain 3: saved 1/2000 retained draws
+brwb3 chain 1: saved 1/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 100/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 100/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 100/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 200/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 200/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 200/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 300/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 300/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 300/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 400/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 400/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 400/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 500/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 500/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 500/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 600/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 600/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 600/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 700/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 700/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 800/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 700/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 800/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 900/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 800/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 900/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1000/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 900/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1100/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1000/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 1000/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1200/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1100/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 1100/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1300/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1200/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 1200/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1300/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 1300/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1400/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1400/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1500/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 2: saved 1400/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1500/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1600/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1600/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1700/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1700/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1800/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 1900/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1800/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 3: saved 2000/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 1900/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+brwb3 chain 1: saved 2000/2000 retained draws
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37
+┌ Warning: Verbosity toggle: max_iters 
+│  Interrupted. Larger maxiters is needed. If you are using an integrator for non-stiff ODEs or an automatic switching 
+algorithm (the default), you may want to consider using a method for stiff equations. See the solver pages for more 
+details (e.g. https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/#Stiff-Problems).
+└ @ DiffEqBase C:\Users\jmurp\.julia\packages\DiffEqBase\R4JAC\src\check_error.jl:37

@@ -1,0 +1,66 @@
+checks = 27591
+integrity_passed = true
+julia_version = "1.10.11"
+limitations = "Integrity is separate from MCMC acceptance and biological validity. Likelihood replay covers the recorded count per trial; other rows receive structural checks only. Latent bands are replayed completely. Observation-noise draws are unavailable; measurement bands receive only structural and unit checks. No PSIS-LOO score is computed."
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_ghhp4_v2"
+replay_per_chain = 2000
+solver_budget_scope = "One complete Julia ODE solve; saveat does not reset maxiters. This differs from Stan's between-output-time step budget."
+stan_budget_reference = "https://mc-stan.org/docs/2_24/stan-users-guide/control-parameters-for-ode-solving.html"
+
+[implementation_sha256]
+"scripts/audit_cocoa_benchmark_bayes.jl" = "69302b4563e2cbcacc0046b36cce36f42b72c4bd3089bcd7e34a4043467047c5"
+"scripts/cocoa_fit_output.jl" = "1d4a9558df03db171976a5c46577080d290546d3a2f3729a332d4d72213a8bf4"
+"scripts/diagnose_cocoa_bayes.jl" = "3747328b91125276b8ac60dc49ea9de88aa07c02a91db626a016fe6138f3a55a"
+"scripts/fit_cocoa_benchmark.jl" = "254d85a5b0e597d057459c1898bd822ddeb6327081164b19552ce44a8243dbff"
+"scripts/fit_cocoa_benchmark_bayes.jl" = "49be2073d4129cb3fddee9c3b72efa12ff495f40056d954f1b62cff864ae2452"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "b838ae862f3183a8e711186e84873b1d2621ef7bf2e37197fbbf709f657fe2b5"
+"src/core/bayes.jl" = "0d470bd9860d6890f4238db6038d2e8d5ebc664e81622ffee4944ad908097211"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"
+
+[parent_sha256]
+"brwb3/chain_001.csv" = "7923d0469200b4e38694ac9fa07d0d2b83e7898a949885536c67a64f75111911"
+"brwb3/chain_002.csv" = "77320c9678d8aab5a8811152a4df60c0794d23eab022f51202c7d2c1a12d590e"
+"brwb3/input.toml" = "3fdefb7e4d20b0db3eaef7faebefc3524bfeccff4c006725470d166287386ddf"
+"brwb3/likelihood_observations.csv" = "040f9c19e054dd3e7c36d2b4ba7732577d44f42e427ffa6c58393e69f2c28cd4"
+"brwb3/log_likelihood.csv" = "43ce2efb20602e5e499dd6ad8284b46fbbf70f92d0dddf9592bf0f8c4924135d"
+"brwb3/parameters.csv" = "a5f97e54a3001a96abe1674916d9c8cdc6f87489ef734463a1c3c542c6af4b9f"
+"brwb3/predictive.csv" = "c8783703ee1a83d55e42000e0173f516042365aa706d17ee9a6fea91de3f039b"
+"brwb3/predictive_selection.csv" = "e790762743ae97a252b5317eac8aad94f2f790e887c30c26e198c65e2b382b69"
+"brwb3/priors.toml" = "77adc8e546b5f88be07b8ca03bdeeea1caf007cc3ee2a969635d77dfd1390367"
+"brwb3/report.toml" = "e5dd298d6680dd9909b5604c2bff9ce959d79c1a30258222d2933a00a624f411"
+"comparison.csv" = "050e54963b406fe2cb304dd699665f354ff96791c7bc00fe33541e7a76377461"
+"ghhp4/chain_001.csv" = "a8b1bc5a3d742f1514a90a95338ec15d279787de209638f3b1d3199a723a0242"
+"ghhp4/chain_002.csv" = "bd60435b44d4b84349fc17a92bc88a9c202ac4555e41528e1c8faed11f507424"
+"ghhp4/input.toml" = "ce5fd441f2d664868a0231d28d89ef1c494e3a695a5c60cc5d03c5e68b95d7f5"
+"ghhp4/likelihood_observations.csv" = "808e365b6de380fa2bbbabd7e973e05bb66544789def9b2bb81db2b191390dc2"
+"ghhp4/log_likelihood.csv" = "7a1a689c8ed90cd9b19848ae7976871359ee1be6479a0f72e82374972bd49b40"
+"ghhp4/parameters.csv" = "250825baf72b5980a9d446bbd2b50af89f291fd3034a5dae25f1ec1a87a19f2a"
+"ghhp4/predictive.csv" = "457623dc991d301035b5dd661626109080460a1302ea9200b327f9fd44d6d6ba"
+"ghhp4/predictive_selection.csv" = "63604a54d22c8c5ccf5e96cd6b41c86a214270b348fb615aa6853d685195a3b7"
+"ghhp4/priors.toml" = "9ab2a0cd0af87677f7833e30125b6142499b1133cfde067c56a83bad3c1e42e3"
+"ghhp4/report.toml" = "0d6acf5200e671a6221637c67fe8b8bd4fa49d9b81a0d82ed8912d9175981028"
+"settings.toml" = "68f79f3951bd8dabe427041cf57cb3fc28f3567fcb47cbd90b7da889a7c3e98b"
+
+[trials.brwb3]
+checks = 13726
+integrity_passed = true
+latent_predictive_draws_replayed = 500
+likelihood_draws_replayed = 2000
+likelihood_replay_complete = true
+likelihood_rows_checked = 2000
+likelihood_values_checked = 192000
+sampling_diagnostics_passed = false
+status = "posterior_diagnostics_failed"
+
+[trials.ghhp4]
+checks = 13834
+integrity_passed = true
+latent_predictive_draws_replayed = 500
+likelihood_draws_replayed = 2000
+likelihood_replay_complete = true
+likelihood_rows_checked = 2000
+likelihood_values_checked = 210000
+sampling_diagnostics_passed = false
+status = "posterior_diagnostics_failed"

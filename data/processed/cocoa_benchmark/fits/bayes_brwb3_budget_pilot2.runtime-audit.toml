@@ -1,0 +1,9 @@
+integrity_passed = true
+runtime_events_checked = 600
+retained_draws_checked = 200
+paired_draws_identical = 100
+warmup_excluded_from_draws = true
+sampling_diagnostics_passed = false
+parent_experiment_sha256 = "3f41f6566329d53164edae3dd6940d536ba929e3bf7280f60e0c4f99fa932c3a"
+audit_script_sha256 = "3803356f546aea7c776a894b17b7f7e3eb5c9998a31d8a464072fd9063a63191"
+limitation = "Integrity and identical output do not establish MCMC convergence or explain the previous long-run delay."

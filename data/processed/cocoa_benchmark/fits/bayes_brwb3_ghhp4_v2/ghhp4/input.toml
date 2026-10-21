@@ -1,0 +1,10 @@
+hidden_lactate = true
+initial_normalized = [1.0, 1.0, 0.033769361282907334, 0.0, 0.0, 0.04305266103007827, 0.0015812476281547125, 0.00739605675397657]
+seed = 141115
+solver_maxiters = 1000000
+source_branch = 3
+source_file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/posteriors/post_sims2.R"
+source_sha256 = "6058d64ffbd02a68246eaad2fc25dfda108d955ad7d603d798905c98ae77d2c8"
+state_order = ["G", "F", "E", "L", "A", "Xy", "Xl", "Xa"]
+times_h = [6.0, 12.0, 18.0, 24.0, 30.0, 36.0, 42.0, 48.0, 54.0, 60.0, 72.0, 84.0, 96.0, 120.0, 144.0]
+trial = "ghhp4"

@@ -1,0 +1,31 @@
+abstol = 1.0e-11
+gradient_tolerance = 1.0e-6
+initialization = "verified saved candidate first; additional starts uniform in log bounds; acceptance recomputed"
+julia_version = "1.10.11"
+maxiters = 1000
+maxtime_seconds = 180.0
+method = "mle"
+mle_bounds = [1.0e-5, 5.0]
+outer_iterations = 20
+paper_metric = "PSIS-LOO and relative BMA weights; not directly comparable to MLE training scores"
+reltol = 1.0e-10
+restart_from = "data/processed/cocoa_benchmark/fits/mle_pilot"
+scope = "all"
+seed = 141085
+solver = "rodas5p"
+solver_maxiters = 10000
+source = "doi:10.1098/rsos.210274; doi:10.5281/zenodo.5510370"
+starts = 1
+trials = ["ghhp6", "brwb3", "ghhp2"]
+
+[implementation_sha256]
+"scripts/fit_cocoa_benchmark.jl" = "254d85a5b0e597d057459c1898bd822ddeb6327081164b19552ce44a8243dbff"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "b838ae862f3183a8e711186e84873b1d2621ef7bf2e37197fbbf709f657fe2b5"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"
+
+[trial_seeds]
+brwb3 = 141100
+ghhp2 = 141113
+ghhp6 = 141098

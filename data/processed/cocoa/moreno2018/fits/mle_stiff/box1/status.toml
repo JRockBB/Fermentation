@@ -1,0 +1,4 @@
+completed = false
+accepted = false
+reason = "Interrupted after the first start completed at its optimizer time limit. The completed start is preserved in mle_start_001.toml. No final report or accepted estimate."
+execution_followup = "Use one Julia process at a time after a concurrent job encountered the Windows paging-file limit."

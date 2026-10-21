@@ -1,0 +1,4 @@
+case,solver,tolerance,minimum_seconds,median_seconds,maximum_allocated_bytes
+saved,tsit5,1.0e-6,0.0019516,0.00383,797144
+tighter,tsit5,1.0e-8,0.0025138,0.0046412,796248
+alternate_tighter,rodas5p,1.0e-8,0.0270637,0.0384006,1583216

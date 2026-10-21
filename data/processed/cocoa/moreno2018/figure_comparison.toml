@@ -1,0 +1,139 @@
+all_within_tolerance = false
+digitized_input = "data/raw/digitized/moreno2018-figures/points.csv"
+digitized_sha256 = "6217374d3126f89ef26af9aa1255bb6c82693e82e351b5809ba950cfeec7992d"
+prediction = "ODE evaluated at printed normalized posterior mean parameters"
+reference = "doi:10.1098/rsos.180964 Figures 3-5; thesis Figures 2.3-2.5"
+script = "scripts/compare_cocoa_figures.jl"
+tolerance_fraction = 0.02
+
+[box1]
+max_fraction_error = 0.07121334922153096
+outside_tolerance = 11
+
+    [box1.A]
+    max_fraction_error = 0.009847288660060238
+    outside_tolerance = 0
+    points = 7
+
+    [box1.E]
+    max_fraction_error = 0.027464514502383137
+    outside_tolerance = 1
+    points = 7
+
+    [box1.F]
+    max_fraction_error = 0.02485789784305498
+    outside_tolerance = 1
+    points = 7
+
+    [box1.G]
+    max_fraction_error = 0.01247422122624613
+    outside_tolerance = 0
+    points = 7
+
+    [box1.L]
+    max_fraction_error = 0.057503274101744585
+    outside_tolerance = 4
+    points = 7
+
+    [box1.Xa]
+    max_fraction_error = 0.07121334922153096
+    outside_tolerance = 1
+    points = 7
+
+    [box1.Xl]
+    max_fraction_error = 0.04698729045401573
+    outside_tolerance = 2
+    points = 7
+
+    [box1.Xy]
+    max_fraction_error = 0.03652968594192651
+    outside_tolerance = 2
+    points = 7
+
+[box2]
+max_fraction_error = 0.04936976056572765
+outside_tolerance = 14
+
+    [box2.A]
+    max_fraction_error = 0.02154629825033947
+    outside_tolerance = 1
+    points = 7
+
+    [box2.E]
+    max_fraction_error = 0.037395211393937255
+    outside_tolerance = 2
+    points = 7
+
+    [box2.F]
+    max_fraction_error = 0.041610465497914514
+    outside_tolerance = 1
+    points = 7
+
+    [box2.G]
+    max_fraction_error = 0.04228560684576184
+    outside_tolerance = 1
+    points = 7
+
+    [box2.L]
+    max_fraction_error = 0.04257726176963024
+    outside_tolerance = 2
+    points = 7
+
+    [box2.Xa]
+    max_fraction_error = 0.03213788496000273
+    outside_tolerance = 2
+    points = 7
+
+    [box2.Xl]
+    max_fraction_error = 0.04936976056572765
+    outside_tolerance = 3
+    points = 7
+
+    [box2.Xy]
+    max_fraction_error = 0.047116932337221515
+    outside_tolerance = 2
+    points = 7
+
+[camu]
+max_fraction_error = 0.060246786879562204
+outside_tolerance = 13
+
+    [camu.A]
+    max_fraction_error = 0.012206007394667187
+    outside_tolerance = 0
+    points = 7
+
+    [camu.E]
+    max_fraction_error = 0.03687413971240162
+    outside_tolerance = 2
+    points = 7
+
+    [camu.F]
+    max_fraction_error = 0.018851044356064328
+    outside_tolerance = 0
+    points = 7
+
+    [camu.G]
+    max_fraction_error = 0.020094494935827593
+    outside_tolerance = 1
+    points = 7
+
+    [camu.L]
+    max_fraction_error = 0.04903763666255614
+    outside_tolerance = 4
+    points = 7
+
+    [camu.Xa]
+    max_fraction_error = 0.060246786879562204
+    outside_tolerance = 2
+    points = 7
+
+    [camu.Xl]
+    max_fraction_error = 0.025541041081603155
+    outside_tolerance = 2
+    points = 7
+
+    [camu.Xy]
+    max_fraction_error = 0.021597100304821162
+    outside_tolerance = 2
+    points = 7

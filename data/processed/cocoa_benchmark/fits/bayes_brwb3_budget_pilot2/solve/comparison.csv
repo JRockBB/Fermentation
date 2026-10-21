@@ -1,0 +1,2 @@
+trial,in_paper_benchmark,observations,status,max_rhat,min_ess_bulk,min_ess_tail,divergences,depth_hits,retained_draws,elapsed_seconds,published_baseline_success,published_max_rhat,published_min_bulk_ess,published_min_tail_ess,published_bma_weight,psis_loo,published_psis_loo
+brwb3,true,96,posterior_diagnostics_failed,1.5993135326272254,9.84238867737878,14.438283327003425,0,80,100,326.52500009536743,true,1.0,1174.0,1746.0,0.0,,

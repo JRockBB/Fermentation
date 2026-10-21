@@ -1,0 +1,50 @@
+# Local Julia depot, machine preferences, and generated manifests.
+/.julia-depot/
+/LocalPreferences.toml
+/Manifest.toml
+/Manifest-v*.toml
+/scripts/Manifest.toml
+/scripts/Manifest-v*.toml
+
+# Generated examples, coverage, and disposable local work.
+/examples/output/
+/coverage/
+/lcov.info
+/scratch/
+/tmp/
+/logs/
+/*.log
+*.jl.cov
+*.jl.mem
+*.jl.*.cov
+
+# Python helper environments/caches and notebook checkpoints.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environment values; keep shareable templates available to commit.
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+
+# Keep sourced data, figures, provenance, and completed audited fits versioned.
+# Temporarily exclude this active run and its sidecars until its audit finishes.
+# Remove these two rules when the run is finalized for publication.
+/data/processed/cocoa_benchmark/fits/bayes_brwb3_depth_refinement1/
+/data/processed/cocoa_benchmark/fits/bayes_brwb3_depth_refinement1.*
+
+# Editor and operating-system files.
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,22 @@
+density_definition = "Gaussian NLL minus source log priors minus sum(z); parameters=exp(z)."
+diagnostics_accept_fit = false
+error_definition = "max(abs(FD-AD)/max(1,abs(AD))); cross-case gradient uses saved AD in denominator."
+fd_step = 0.0001
+julia_version = "1.10.11"
+limitations = "Selected retained points only; no global numerical certificate or MCMC convergence claim. A divergence flag does not identify its failed leapfrog state."
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_ghhp4_v2"
+parent_settings_sha256 = "68f79f3951bd8dabe427041cf57cb3fc28f3567fcb47cbd90b7da889a7c3e98b"
+per_chain_grid = 3
+tail_parameters = ["yc11"]
+tolerance_factor = 0.01
+trials = ["brwb3", "ghhp4"]
+
+[implementation_sha256]
+"scripts/diagnose_cocoa_bayes.jl" = "3747328b91125276b8ac60dc49ea9de88aa07c02a91db626a016fe6138f3a55a"
+"scripts/fit_cocoa_benchmark.jl" = "254d85a5b0e597d057459c1898bd822ddeb6327081164b19552ce44a8243dbff"
+"scripts/fit_cocoa_benchmark_bayes.jl" = "49be2073d4129cb3fddee9c3b72efa12ff495f40056d954f1b62cff864ae2452"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "b838ae862f3183a8e711186e84873b1d2621ef7bf2e37197fbbf709f657fe2b5"
+"src/core/bayes.jl" = "0d470bd9860d6890f4238db6038d2e8d5ebc664e81622ffee4944ad908097211"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"

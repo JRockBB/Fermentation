@@ -1,0 +1,4 @@
+trial,in_paper_benchmark,observations,status,candidate_nll,candidate_normalized_rmse,projected_gradient_inf,elapsed_seconds,published_baseline_success,published_max_rhat,published_min_bulk_ess,published_min_tail_ess,published_bma_weight,published_psis_loo,comparison
+ghhp6,false,32,prediction_failure,,,,13.440000057220459,false,,,,,,MLE training scores versus published Bayesian diagnostics; PSIS-LOO unavailable
+brwb3,true,96,unverified_candidate,-56.21453730104908,0.1347267493241613,0.032105877363417634,180.46799993515015,true,1.0,1174.0,1746.0,0.0,,MLE training scores versus published Bayesian diagnostics; PSIS-LOO unavailable
+ghhp2,true,105,unverified_candidate,-69.86098601237447,0.12439611898928166,1.73471431734669,184.79900002479553,false,,,,,,MLE training scores versus published Bayesian diagnostics; PSIS-LOO unavailable

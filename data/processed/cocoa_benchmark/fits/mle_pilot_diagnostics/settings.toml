@@ -1,0 +1,22 @@
+diagnostics_accept_fit = false
+finite_difference_step = 0.0001
+fit_directory = "data/processed/cocoa_benchmark/fits/mle_pilot"
+fit_settings_sha256 = "0676bee7e40bdd0c27772832dbcdadf64203ab7cba1c1685e1db7dc1cc5686d5"
+information_definition = "SVD of sigma-standardized mean Jacobian in log parameters, augmented by sqrt(2n) in log(sigma)."
+interpretation = "Local numerical derivatives and information rank do not establish an optimum or structural identifiability."
+julia_version = "1.10.11"
+parameter_coordinates = "normalized by trial state maxima"
+projected_gradient_definition = "z - clamp(z - gradient(NLL), log(lower), log(upper)); z=log(parameters)"
+solver = "rodas5p"
+tolerance_factors = [1.0, 0.01]
+trials = ["ghhp1", "dowb1", "cipb1", "brwb1", "brwb2", "ecpt1", "ecpt2", "ecwb1", "ecwb2", "brpb1", "brst1", "mywb1", "mywb2", "ghhp6", "ghhp7", "brwb3", "brwb4", "brst2", "brwb5", "brwb6", "brwb7", "mywb3", "brwb8", "hnwb1", "ecpb1", "niwb1", "niwb2", "ecpb2", "ghhp2", "ghhp3", "ghhp4", "ghhp5"]
+
+[implementation_sha256]
+"scripts/cocoa_mle_diagnostics.jl" = "53121e547bf60a445b06ef089c9828728d685d96e9d343ace7348e4d8eb2a7dc"
+"scripts/diagnose_cocoa_benchmark.jl" = "f1ac803c5fbfaf9f5b5a3ade5b0554f135c7f4ab0aa56a54cb1c7038ef7de641"
+"scripts/fit_cocoa_benchmark.jl" = "254d85a5b0e597d057459c1898bd822ddeb6327081164b19552ce44a8243dbff"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "b838ae862f3183a8e711186e84873b1d2621ef7bf2e37197fbbf709f657fe2b5"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"
+"src/core/identifiability.jl" = "3e2f8f38c7deceba884a7229edbfc4bf5ef6eb763ade72d95ec39d07af83894f"

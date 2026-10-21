@@ -1,0 +1,4 @@
+completed = false
+accepted = false
+reason = "Stopped before retained draws: checkpoint header followed alphabetical loader order while values followed equation order. No posterior output accepted. Writer now selects values by explicit column names, with regression tests."
+replacement = "camu_bayes_threaded_v2"

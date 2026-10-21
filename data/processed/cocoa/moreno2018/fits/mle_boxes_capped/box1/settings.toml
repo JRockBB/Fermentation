@@ -1,0 +1,32 @@
+abstol = 1.0e-9
+bayesian_bounds = "positive and unbounded above; MLE bounds are not imposed"
+bayesian_initialization = "independent prior draws"
+chains = 4
+julia_version = "1.12.6"
+max_depth = 12
+maxiters = 500
+method = "mle"
+mle_lower = 1.0e-5
+mle_upper = 5.0
+outer_iterations = 20
+parameter_file_sha256 = "9765cad5721b98e11805b2bc699361bb3fd4f40b704ceb6eddc05376afd6a3cb"
+raw_file = "data/raw/cocoa/CocoaModel-master/simulation/p_box1.R"
+raw_sha256 = "d97ed3f479e6e2aae6b7793653acb53f1ea57bfffb3f1664db75c7e71688c1aa"
+reltol = 1.0e-8
+samples = 2000
+script = "scripts/fit_cocoa.jl"
+seed = 100785
+solver = "Tsit5"
+solver_maxiters = 100000
+source = "doi:10.1098/rsos.180964; doi:10.5061/dryad.321d33v"
+starts = 2
+target_accept = 0.985
+trial = "box1"
+warmup = 1000
+
+[implementation_sha256]
+"scripts/fit_cocoa.jl" = "d62371a3e3b895106b1ab814e3cfc250d26ca6a1b5b7f726d93f064274535c4d"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "398df47f2bca6c3c6932308753ae5c52d79754469cb276586cd7699f2ab0dbb7"
+"src/core/bayes.jl" = "959d15df448c5db43cde86197fb19b4e85cff0052dfcff0b379d7993cf9c03d8"
+"src/core/estimation.jl" = "1114e5652421fb119c58ecda3bbb52dfdfa6b0daafae82e825bd0cfb14df41c3"

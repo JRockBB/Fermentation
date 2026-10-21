@@ -1,0 +1,26 @@
+posterior_summaries_sha256 = "729fbaec7761ef32338163e3af7da0fbbcd31cbaf43fe9bcb71e1c9f5d461a23"
+script = "scripts/prepare_cocoa.jl"
+state_order = ["G", "F", "E", "L", "A", "Xy", "Xl", "Xa"]
+state_units = "mg/g pulp"
+time_units = "h"
+
+[box1]
+initial = [55.482, 49.669, 0.0, 0.0, 1.379, 0.175424909, 0.003047264, 2.86522e-6]
+raw_file = "data/raw/cocoa/CocoaModel-master/simulation/p_box1.R"
+scales = [55.482, 49.669, 6.033, 4.873, 11.935, 0.212369067, 0.37403308, 0.008514478]
+sha256 = "d97ed3f479e6e2aae6b7793653acb53f1ea57bfffb3f1664db75c7e71688c1aa"
+transformations = "Parse numeric literals; preserve source units and values; separate fixed initial row from likelihood observations"
+
+[box2]
+initial = [42.936, 67.249, 0.318, 0.0, 0.942, 0.004754351, 0.000221264, 3.86508e-6]
+raw_file = "data/raw/cocoa/CocoaModel-master/simulation/p_box2.R"
+scales = [42.936, 67.249, 7.057, 4.123, 18.625, 0.243271515, 0.699697002, 0.026987213]
+sha256 = "ab178b2f0a31355fe9f6e88c2ea2e4ee09f93e2b0b2aa846ad9000507a4653e5"
+transformations = "Parse numeric literals; preserve source units and values; separate fixed initial row from likelihood observations"
+
+[camu]
+initial = [51.963, 57.741, 0.0, 0.0, 0.0, 0.029180401, 0.007868827, 3.36634e-6]
+raw_file = "data/raw/cocoa/CocoaModel-master/simulation/camu.R"
+scales = [51.963, 57.741, 22.492, 8.593, 6.139, 0.955193281, 0.566121975, 0.001914953]
+sha256 = "087877cdf1220304a972947da12944c9809d7d7f2b4d710d0ff7a54807fc6ad3"
+transformations = "Parse numeric literals; preserve source units and values; separate fixed initial row from likelihood observations"

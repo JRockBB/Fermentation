@@ -1,0 +1,17 @@
+depth_hits = 0
+diagnostics_passed = true
+direct_metric_comparison_available = false
+divergences = 0
+elapsed_seconds = 3917.476000070572
+likelihood_draws = 8000
+max_rhat = 1.0022611677285198
+min_ess_bulk = 3219.4619168663535
+min_ess_tail = 1920.076354336082
+minimum_ess = 400
+observations = 105
+psis_loo = "not computed; pointwise log likelihood exported separately"
+published_psis_loo = "missing: archived posterior outputs absent"
+retained_draws = 8000
+rhat_threshold = 1.01
+status = "posterior_diagnostics_passed"
+trial = "ghhp4"

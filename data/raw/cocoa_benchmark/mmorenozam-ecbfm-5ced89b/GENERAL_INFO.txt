@@ -1,0 +1,27 @@
+
+ACCOMPANYING DATA AND CODES FOR "EXPLORING COCOA BEAN FERMENTATION PROCESSES BY KINETIC MODELLING"
+                                                                                              
+Moreno-Zambrano, M., Ullrich, S. M., and Hütt, M-T.                                          
+                                                                                              
+In this repository are shown data and codes used in our manuscript. All analyses and figures are reproducible by
+using these scripts. A general description of them is shown as follows:
+
+post_sims1.R   <- Computes posterior predictions for all datasets shown in Table 1 of the main manuscript, 
+                  except for those reported by Camu, et. al. 2008.
+post_sims2.R   <- Computes posterior predictions for datasets reported by Camu, et. al. 2008.
+post_sims3.R   <- Computes posterior predictions for model in Supplementary Material, Section 4.
+loo1.R         <- Figure S1
+predictions1.R <- Figure 2 and Figures S2 to S26
+PCAs.R         <- Figures 3 and 4, Figures S27 to S29
+heatmap.R      <- Figure S30
+loo2.R         <- Figure S31
+predictions2.R <- Figures S32 to S34
+
+Folder "Stan_models" contains all necessary Stan models used. Subfolder "camu2008" contains Stan models for fitting
+datasets reported by Camu, et. al., 2008 and subfolder "temperature" contains Stan model used in Supplementary
+Material, Section 4.
+
+For further questions about the scripts presented here, please feel free to contact Mauricio Moreno-Zambrano 
+(m.morenozambrano@jacobs-university.de).
+
+Original outputs used in this research are available upon request to corresponding author, Prof. Dr. Hütt.

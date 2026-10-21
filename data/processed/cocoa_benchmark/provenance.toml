@@ -1,0 +1,17 @@
+all_trials = 32
+archive_license = "Zenodo other-open; no explicit archive license file; not assumed CC0"
+hidden_lactate = "Fixed normalized initial zero from post_sims2.R:139; physical initial and scale unknown; all LA observations missing"
+observed_state_units = "mg/g pulp"
+paper_benchmark_trials = 23
+source = "doi:10.1098/rsos.210274; doi:10.5281/zenodo.5510370"
+state_order = ["G", "F", "E", "L", "A", "Xy", "Xl", "Xa"]
+time_units = "h"
+transformations = "Parse numeric literals; reorder Camu-2008 states; preserve missing LA; normalize observed series by maxima including initial row"
+
+[inputs_sha256]
+"data/raw/cocoa_benchmark/ecbfm-v1.0.zip" = "735255d908338acd573d993d6ab99963a567a3a81773bd910156c2a9754364c4"
+"data/raw/cocoa_benchmark/rsos210274_si_001.pdf" = "54fbaa2b5942f2b4464fade8a3f9987476da1038c06eac10a6c35458048b6f92"
+"data/raw/transcribed/cocoa2022/baseline_diagnostics.csv" = "62537f45a3332b2e0eae59f98c2270474d70d337f5de90b3158db8797dd38479"
+"data/raw/transcribed/cocoa2022/baseline_diagnostics_corrections.csv" = "8550c9c43c800e14a7f28ba4096dc35deca2fec17c65ce4c0d421658fb317bb3"
+"docs/cocoa_benchmark_archive_files.csv" = "64072f4118650be29d9cc4ba467b81bbd566fae4aaad0bb21bd3cbce225a062f"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"

@@ -1,0 +1,23 @@
+audit_script_sha256 = "e09563a1649aa51859fba3de2019d82deb8c3a735d6786eed4e70ab916f2ca56"
+completed_fit = false
+fit_accepted = false
+julia_version = "1.10.11"
+limitations = "Partial checkpoint/provenance checks only. No completed fit, joint R-hat/ESS, predictive export, or full likelihood replay is claimed. The completed-fit auditor rejects this interrupted experiment."
+observed_retained_depth_hits = 0
+observed_retained_divergences = 2
+partial_artifact_integrity_passed = true
+retained_draws = 5478
+
+[parent_sha256]
+"aborted_run.toml" = "5be83f500b8fce1aa864802a3e6d12637f664b48a5763ce36075079bfffba503"
+"brwb3/chain_001.csv" = "451f4e2faeb59a6206f4440fc98c576a5597632e5935e555a72788e3ebedff86"
+"brwb3/chain_002.csv" = "c927db13bde8366d51e141ad499d8759c1594629360e3b87bab3e8ba5262a269"
+"brwb3/chain_003.csv" = "19f7b6a96c534fa4cb85feaaa2d8c87487c6dd24248c83e5748f9fca9422a316"
+"brwb3/chain_004.csv" = "c9e02ae4a7e8e297831d58a0f8f8a9d162a37f8ded0c4a3b0a5ac09df42cf476"
+"brwb3/input.toml" = "3fdefb7e4d20b0db3eaef7faebefc3524bfeccff4c006725470d166287386ddf"
+"brwb3/priors.toml" = "77adc8e546b5f88be07b8ca03bdeeea1caf007cc3ee2a969635d77dfd1390367"
+"brwb3/report.toml" = "04f1428227d2e20490a395aeaa155770b90bb47df3ee392efdb76601b5c05270"
+"runtime_diagnostic/chain4_initial_probe.jl" = "660607b90cb45b164efa82525974be41bd26f5921f13980fc4541b6e5df8537c"
+"runtime_diagnostic/chain4_initial_probe.log" = "91ce496c9d12c717dc224686e98463b9241483a2693dc29f25e5afb1fcf5d85b"
+"sampling.log" = "e93b87e83ceb34c6eba37cc28492395ffa6657ab75c0739d24ff0ffc11fc2f4f"
+"settings.toml" = "d254fb137a4a1c8240c7dc432f2561dae816f5f0a1d611c2c148fd423b21454b"

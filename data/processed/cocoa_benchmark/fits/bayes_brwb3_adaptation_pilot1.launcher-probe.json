@@ -1,0 +1,19 @@
+﻿{
+    "purpose":  "Verify retaining a process handle before waiting captures both zero and nonzero child exit codes for future launchers.",
+    "native_exit_code_of_original_pilot":  null,
+    "original_pilot_receipt_modified":  false,
+    "script_sha256":  "99b492e7e102acdcbd7a5b60f26c1cc41cb85fede146c7e9422f9064f25bd7d7",
+    "finished_utc":  "2026-10-21T18:01:40.3291189Z",
+    "cases":  [
+                  {
+                      "expected_exit_code":  0,
+                      "observed_exit_code":  0,
+                      "passed":  true
+                  },
+                  {
+                      "expected_exit_code":  7,
+                      "observed_exit_code":  7,
+                      "passed":  true
+                  }
+              ]
+}

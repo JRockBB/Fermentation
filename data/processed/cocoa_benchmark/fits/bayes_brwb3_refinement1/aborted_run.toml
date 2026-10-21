@@ -1,0 +1,8 @@
+status = "interrupted"
+fit_accepted = false
+reason = "Computational-cost stop before any retained draw; compare solver gradient timings before a fresh refinement."
+interrupted_utc = "2026-10-20T19:58:58.3207989Z"
+elapsed_process_seconds = 2272.2458797
+process_cpu_seconds = 6643.046875
+retained_draws = 0
+checkpoint_limitation = "No adaptation state was saved; this run cannot be resumed or accepted."

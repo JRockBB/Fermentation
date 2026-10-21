@@ -1,0 +1,7 @@
+# P0.2 format template. No measured or fitted parameter values are available yet.
+# Replace this placeholder only after recording a source and its exact location.
+[lab_mu_max]
+value = "missing"
+units = "1/h"
+notes = "TODO: extract a growth-rate value and record its source, location, organism, and conditions."
+confidence = "placeholder"

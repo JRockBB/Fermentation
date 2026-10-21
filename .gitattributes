@@ -1,0 +1,12 @@
+* text=auto
+*.jl text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+
+# Preserve downloaded and byte-identical extracted research materials.
+/data/raw/** -text
+
+# Audited outputs include exact-byte hashes of CSVs, reports, logs, and receipts.
+# Preserve those bytes across Windows/Linux clones and checkouts.
+/data/processed/** -text

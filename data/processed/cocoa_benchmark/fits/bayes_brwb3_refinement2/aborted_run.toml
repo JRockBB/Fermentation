@@ -1,0 +1,31 @@
+status = "interrupted"
+fit_accepted = false
+reason = "Two retained divergences already violate the unchanged zero-divergence gate. Stop the remaining costly computation after checkpoint progress ceased; do not accept or pool partial chains."
+interrupted_utc = "2026-10-20T22:04:36.4719168+00:00"
+elapsed_process_seconds = 7268.889458
+process_cpu_seconds = 17034.828125
+retained_draws = 5478
+retained_draws_by_chain = [2000, 1478, 2000, 0]
+requested_retained_draws = 8000
+observed_retained_divergences = 2
+observed_retained_depth_hits = 0
+divergent_chain_draw_pairs = [[1, 1343], [3, 1391]]
+completed_requested_chains = 2
+checkpoint_limitation = "No adaptation state was saved. These partial files cannot resume the fit, receive a completed-fit audit, or establish joint R-hat/ESS diagnostics."
+report_limitation = "report.toml is the preserved unfinished sampling checkpoint; this interruption record supplies the terminal experiment status."
+runtime_observation = "Limited native thread inspection was inconclusive about the delay; a bounded ten-step initialization diagnostic for chain 4 completed without an exception. No numerical controls or scientific implementation files changed."
+runtime_probe_intervention = "The task's busy thread was briefly suspended and immediately resumed for six instruction-pointer samples and two bounded native stack reads; no sampler state or files were edited. Elapsed time includes this inspection and shared machine load."
+
+[initialization_diagnostic]
+chain = 4
+chain_seed = "10333612933340527301"
+trial_seed = 141100
+warmup_steps_executed = 10
+adaptation_schedule = 1000
+elapsed_step_seconds = 197.46000003814697
+status = "completed"
+posterior_fit = false
+pooled_with_experiment = false
+script = "runtime_diagnostic/chain4_initial_probe.jl"
+log = "runtime_diagnostic/chain4_initial_probe.log"
+reproduction_note = "Exact helper snapshot as run from .julia-depot/ under the repository root; its relative include is resolved from that original location."

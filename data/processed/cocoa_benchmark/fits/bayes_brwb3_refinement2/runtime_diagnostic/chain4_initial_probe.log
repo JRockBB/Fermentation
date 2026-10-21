@@ -1,0 +1,12 @@
+Diagnostic only; chain=4; seed=10333612933340527301; requested warmup steps=10; adaptation schedule=1000
+warmup_step=1; elapsed_seconds=50.126999855041504
+warmup_step=2; elapsed_seconds=65.5699999332428
+warmup_step=3; elapsed_seconds=79.20700001716614
+warmup_step=4; elapsed_seconds=79.42499995231628
+warmup_step=5; elapsed_seconds=89.30299997329712
+warmup_step=6; elapsed_seconds=93.42899990081787
+warmup_step=7; elapsed_seconds=102.0329999923706
+warmup_step=8; elapsed_seconds=108.69899988174438
+warmup_step=9; elapsed_seconds=127.57200002670288
+warmup_step=10; elapsed_seconds=197.46000003814697
+Bounded initialization diagnostic completed; no posterior acceptance claimed.

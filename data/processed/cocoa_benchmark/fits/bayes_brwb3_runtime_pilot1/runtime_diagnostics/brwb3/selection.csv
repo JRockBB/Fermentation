@@ -1,0 +1,13 @@
+chain,draw,reasons
+1,1,preceding_slow_call
+1,2,slow_retained_call
+1,6,median_duration_control
+2,13,preceding_slow_call
+2,14,slow_retained_call
+2,18,median_duration_control
+3,9,preceding_slow_call
+3,10,slow_retained_call
+3,17,median_duration_control
+4,14,median_duration_control
+4,24,preceding_slow_call
+4,25,slow_retained_call

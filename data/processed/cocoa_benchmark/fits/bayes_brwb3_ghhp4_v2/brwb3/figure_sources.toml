@@ -1,0 +1,13 @@
+julia_version = "1.10.11"
+script = "scripts/cocoa_benchmark_figures.jl"
+script_sha256 = "56c9c96d42a20c813b7a29921d5fe8354a35a6252c13b7e2be3e398ad19c342a"
+
+[source_sha256]
+"../settings.toml" = "68f79f3951bd8dabe427041cf57cb3fc28f3567fcb47cbd90b7da889a7c3e98b"
+"chain_001.csv" = "7923d0469200b4e38694ac9fa07d0d2b83e7898a949885536c67a64f75111911"
+"chain_002.csv" = "77320c9678d8aab5a8811152a4df60c0794d23eab022f51202c7d2c1a12d590e"
+"input.toml" = "3fdefb7e4d20b0db3eaef7faebefc3524bfeccff4c006725470d166287386ddf"
+"parameters.csv" = "a5f97e54a3001a96abe1674916d9c8cdc6f87489ef734463a1c3c542c6af4b9f"
+"predictive.csv" = "c8783703ee1a83d55e42000e0173f516042365aa706d17ee9a6fea91de3f039b"
+"predictive_selection.csv" = "e790762743ae97a252b5317eac8aad94f2f790e887c30c26e198c65e2b382b69"
+"report.toml" = "e5dd298d6680dd9909b5604c2bff9ce959d79c1a30258222d2933a00a624f411"

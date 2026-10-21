@@ -1,0 +1,24 @@
+abstol = 1.0e-9
+gradient_tolerance = 1.0e-6
+initialization = "0.5 for all parameters; numerical starting point based on source kinetic-prior location; not a biological estimate"
+julia_version = "1.10.11"
+maxiters = 60
+maxtime_seconds = 30.0
+method = "mle"
+mle_bounds = [1.0e-5, 5.0]
+outer_iterations = 2
+paper_metric = "PSIS-LOO and relative BMA weights; not directly comparable to MLE training scores"
+reltol = 1.0e-8
+scope = "all"
+seed = 141085
+solver = "rodas5p"
+solver_maxiters = 10000
+source = "doi:10.1098/rsos.210274; doi:10.5281/zenodo.5510370"
+starts = 1
+
+[implementation_sha256]
+"scripts/fit_cocoa_benchmark.jl" = "f5b2a91fd5b977a6644e04a25d277925142e8d974da29187005cf5e0fccf8c95"
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "b838ae862f3183a8e711186e84873b1d2621ef7bf2e37197fbbf709f657fe2b5"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"

@@ -1,0 +1,10 @@
+candidate_start = 1
+directory = "data/processed/cocoa_benchmark/fits/mle_pilot"
+previous_accepted = false
+previous_status = "unverified_candidate"
+
+[files_sha256]
+"ecpt1/input.toml" = "54332b5e36d32c35637f206d5bb2440f80a0f39ad103bb7f2fc7598452b9fd89"
+"ecpt1/report.toml" = "2d6105dc0d7fb8047a41c1c07a1dbb500ada867f04eca37e6eaa54a44b5408bc"
+"ecpt1/start_001.toml" = "4c0d5e35bca447863404dd51fb5b114b99bd21eeb36ba76d0b7ea47657f484ac"
+"settings.toml" = "0676bee7e40bdd0c27772832dbcdadf64203ab7cba1c1685e1db7dc1cc5686d5"

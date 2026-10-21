@@ -1,0 +1,6 @@
+bytes = 225608
+license = "CC-BY-4.0"
+retrieved_at_utc = "2026-10-20T14:44:51.955Z"
+sha256 = "5b905786afdc80bc7a8c10ccf04185eb257d58411ba607796bc4b0d4a73c344e"
+source = "doi:10.1098/rsos.210274"
+url = "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8847890/fullTextXML"

@@ -1,0 +1,13 @@
+﻿{
+    "status":  "exited",
+    "process_id":  11716,
+    "started_utc":  "2026-10-21T17:35:48.6956024Z",
+    "watchdog_seconds":  2700,
+    "watchdog_scope":  "Only the Julia process started by this wrapper; includes package loading and postprocessing.",
+    "stdout":  "bayes_brwb3_adaptation_pilot1.stdout.log",
+    "stderr":  "bayes_brwb3_adaptation_pilot1.stderr.log",
+    "exit_code":  null,
+    "finished_utc":  "2026-10-21T17:56:27.9142856Z",
+    "stdout_sha256":  "a38d34f23edf64dc01c0d07bc05056b8b57a20bdefebf497a6a7d8cc0242ca0a",
+    "stderr_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

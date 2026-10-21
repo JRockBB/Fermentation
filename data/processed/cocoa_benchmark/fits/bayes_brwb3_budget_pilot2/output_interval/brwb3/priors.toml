@@ -1,0 +1,249 @@
+[k1]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "k1"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[k2]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "k2"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[k3]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "k3"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[ks1]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "ks1"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[ks2]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "ks2"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[ks3]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "ks3"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[ks4]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "ks4"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[ks5]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "ks5"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[mu1]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "mu1"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[mu2]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "mu2"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[mu3]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "mu3"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[mu4]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "mu4"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[mu5]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "mu5"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[sigma]
+coordinates = "trial-normalized states; time in hours"
+distribution = "half-Cauchy(0,1)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "sigma"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc1]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc1"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc10]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc10"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc11]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc11"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc2]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc2"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc3]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc3"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc4]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc4"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc5]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc5"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc6]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc6"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc7]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc7"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc8]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc8"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"
+
+[yc9]
+coordinates = "trial-normalized states; time in hours"
+distribution = "positive-truncated Normal(0.5,0.3)"
+file = "data/raw/cocoa_benchmark/mmorenozam-ecbfm-5ced89b/Stan_models/mm0.stan"
+location = "baseline Stan model block; positive parameter declarations"
+parameter = "yc9"
+sha256 = "bedbad97a34059507d0a2f9681b991339ab01cd53df6f303c188173e3b1095f5"
+source = "doi:10.1098/rsos.210274"
+support = "positive; unbounded above"

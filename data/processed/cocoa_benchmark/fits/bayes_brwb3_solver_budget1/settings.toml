@@ -1,0 +1,51 @@
+all_trajectories_and_gradients_identical = true
+cases = 30
+completed_utc = "2026-10-20T23:08:09.887"
+gradient_evaluations = 60
+julia_threads = 2
+julia_version = "1.10.11"
+limitations = "Selected retained states, including divergence flags and their predecessors, are not failed leapfrog states or a global accuracy/convergence certificate. The original completed-fit hash guards remain strict; old implementation snapshots validate the timing parent. No fit is relabelled."
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_solver_timing1"
+purpose = "Compare continuous output-interval budgeting with the historical whole-solve mode at ten previously selected brwb3 retained points."
+script_sha256 = "1fe2d37aaf6b22ea05631661ff940a29064ef5f4538a494bd030615bbeba2720"
+solver_max_step_attempts = 500
+solver_maxiters = 10000
+started_utc = "2026-10-20T23:07:15.165"
+
+[checkpoint_provenance]
+parent_directory = "data/processed/cocoa_benchmark/fits/bayes_brwb3_ghhp4_v2"
+parent_settings_sha256 = "68f79f3951bd8dabe427041cf57cb3fc28f3567fcb47cbd90b7da889a7c3e98b"
+parent_status = "posterior_diagnostics_failed"
+source_sha256 = "dc2106c811185ffb73bebfb890cf07504616f4ad707f87fae001e959e5c621fc"
+
+    [checkpoint_provenance.parent_files_sha256]
+    "chain_001.csv" = "7923d0469200b4e38694ac9fa07d0d2b83e7898a949885536c67a64f75111911"
+    "chain_002.csv" = "77320c9678d8aab5a8811152a4df60c0794d23eab022f51202c7d2c1a12d590e"
+    "input.toml" = "3fdefb7e4d20b0db3eaef7faebefc3524bfeccff4c006725470d166287386ddf"
+    "priors.toml" = "77adc8e546b5f88be07b8ca03bdeeea1caf007cc3ee2a969635d77dfd1390367"
+    "report.toml" = "e5dd298d6680dd9909b5604c2bff9ce959d79c1a30258222d2933a00a624f411"
+
+[environment_sha256]
+"Manifest-v1.10.toml" = "5314acb1fe3b1ca79c88381b86cc129c41dae62de2ae792d520c8ebeb0fedca9"
+"Project.toml" = "0cf20f3aa93bb51dbb3002938c78290827c42ceabbe948e132c2e31e65819173"
+
+[implementation_sha256]
+"scripts/prepare_cocoa_benchmark.jl" = "bbc1951bb5c07bcfea913b104e21b0b77f029c03cdf7d2c2a624aecbed0626bf"
+"src/cocoa/Cocoa.jl" = "1f10135427aa46497cd221be3bfd9434c1df2f457033cb18b5a05b277d6d6ed3"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "1746903fd08f241cb5978cb6c83b653cfb2189aca95126ee8ef6baf58283ddc3"
+"src/core/bayes.jl" = "3ed1cfad674d319eb5456fd7e7242da6b493db93c8f6ef584b33c339a1cfc940"
+"src/core/estimation.jl" = "fd7900ac61b50ad3bfe489ea5e2d08b65f380f6be8c710600eaced929170c2e0"
+
+[parent_sha256]
+"chain_1_draw_16.toml" = "977f1500fca9187effca4235d6275896bbe302b41bc753d0cae735f5ded2a6bd"
+"chain_1_draw_286.toml" = "38b22432b7004ae59d32684cc34585de55cc3080e7f57cb0de7e03f4c4616b7b"
+"chain_1_draw_287.toml" = "48ec0c5ea37da642b1cf675fe187ea25a3c8f13347d8cd7bbb377e31dc37807c"
+"chain_1_draw_500.toml" = "8951df6ca8a2a01a5dd6d28b27e382d18e99cc67a690fb6f842635f39d2c1ed7"
+"chain_1_draw_817.toml" = "95228f822a5b7c570741d7f51574a467382d281e5a36c3f46afcfb7cd8c833e3"
+"chain_2_draw_500.toml" = "678bc01fe33d9a7199cbf24cc86f49fe8060feb4f3e13f64376867674eb8cab0"
+"chain_2_draw_543.toml" = "c027f2cee1c4d1967843dd6e39257e70c25175d15b250e10447d999b184d2e5d"
+"chain_2_draw_544.toml" = "0e1eec9c171d4907c0ec0502adffaf16793e560f52be987bb3a91f4667532082"
+"chain_2_draw_743.toml" = "4156f859aeeea1083568c178cded3d289539f805b8950af22dba0ffd52b5e33f"
+"chain_2_draw_927.toml" = "f11342800adf6e2be3ea5ce25dbb15c861044a7c5eb4f28d8962b57753941d4f"
+"settings.toml" = "4a110ee2c452bc0a33a1083c180511ccf0109fbd39476730f3260751ce5f086a"

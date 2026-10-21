@@ -1,0 +1,61 @@
+active_lower = ["ks2"]
+active_upper = ["ks1", "ks5", "yc1", "yc3", "yc11"]
+bound_relative_tolerance = 1.0e-5
+checkpoint = "data/processed/cocoa/moreno2018/fits/box1_mle_restart/mle_start_001.toml"
+checkpoint_converged = false
+checkpoint_objective = -65.81890922572416
+checkpoint_retcode = "MaxIters"
+checkpoint_sha256 = "26a5b09bc55ddc7d03caedbd577deb1949de21f793c4917861208e2aa0056124"
+checkpoint_time_limit_reached = true
+concentration_source_unit = "mg/g pulp"
+conditional_sigma_mle = 0.1285017622958565
+diagnostics_accept_fit = false
+fit_settings_sha256 = "6b5afacdaa7a30585428d54f5428cec4a3b14d6e240a75a52b3c6164f6cf826e"
+information_condition_number = 659428.7480569673
+information_definition = "SVD of sigma-standardized mean Jacobian in log parameters, augmented by sqrt(2n) in log(sigma)."
+information_parameter_count = 25
+information_rank = 25
+information_rank_relative_tolerance = 1.4901161193847656e-8
+information_singular_values = [65.04080654241511, 37.00331170046195, 32.567318761649474, 25.09846049984938, 15.389469743319044, 14.422205101855956, 13.425456479918461, 11.834620060983871, 8.146723659936713, 6.193639640785184, 5.999598665821868, 3.642534972026152, 3.033193698295946, 1.931946095785665, 0.8706855998661746, 0.7490092095232094, 0.6089460396141086, 0.2615269797360388, 0.19326170437423468, 0.12622061026125367, 0.016277765716195797, 0.0006830771262491458, 0.0005567482710552325, 0.00034877814244159856, 9.863204589435993e-5]
+interpretation = "Local point diagnostics do not establish a local/global optimum or structural identifiability."
+julia_version = "1.12.6"
+observation_count = 104
+parameter_coordinates = "normalized by original trial state maxima"
+projected_gradient_definition = "z - clamp(z - gradient(NLL), log(lower), log(upper)); z=log(parameters)"
+projected_gradient_inf = 0.1234384551893637
+raw_file = "data/raw/cocoa/CocoaModel-master/simulation/p_box1.R"
+raw_sha256 = "d97ed3f479e6e2aae6b7793653acb53f1ea57bfffb3f1664db75c7e71688c1aa"
+reevaluated_nll = -65.81890922572416
+saved_sigma = 0.12850162386564018
+source = "doi:10.1098/rsos.180964; doi:10.5061/dryad.321d33v"
+time_unit = "h"
+trial = "box1"
+
+[[finite_difference_checks]]
+max_scaled_error = 1.84401279007451
+step = 0.0001
+[[finite_difference_checks]]
+max_scaled_error = 1.8363533184397856
+step = 5.0e-5
+
+[implementation_sha256]
+"scripts/cocoa_fit_output.jl" = "1d4a9558df03db171976a5c46577080d290546d3a2f3729a332d4d72213a8bf4"
+"scripts/cocoa_mle_diagnostics.jl" = "53121e547bf60a445b06ef089c9828728d685d96e9d343ace7348e4d8eb2a7dc"
+"scripts/prepare_cocoa.jl" = "3015816f2cd746efea666e652ac3854f802f2b40e90e6f867b73cfde349ebfde"
+"src/cocoa/baseline.jl" = "c0f963cabf2bd5608856e7501f1be39da0a1593330a86bd2d6b6399f9cad1cb1"
+"src/cocoa/inference.jl" = "b838ae862f3183a8e711186e84873b1d2621ef7bf2e37197fbbf709f657fe2b5"
+"src/core/estimation.jl" = "ab21aee46f4d9ae0ff76cf6e2eb139756ffde0cfd5099779cf70a06d7bc6ec7b"
+"src/core/identifiability.jl" = "3e2f8f38c7deceba884a7229edbfc4bf5ef6eb763ade72d95ec39d07af83894f"
+
+[[solver_checks]]
+maximum_normalized_prediction_difference = 1.5609521708537244e-7
+nll = -65.81890907145649
+solve_succeeded = true
+solver = "rodas5p"
+tolerance_factor = 0.1
+[[solver_checks]]
+maximum_normalized_prediction_difference = 1.0285304459012323e-5
+nll = -65.81892297936332
+solve_succeeded = true
+solver = "tsit5"
+tolerance_factor = 1.0

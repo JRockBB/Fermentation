@@ -1,0 +1,73 @@
+Sampling 1/1 brwb3
+brwb3 chain 1: initialization call 1, elapsed 51.4 s
+brwb3 chain 3: initialization call 1, elapsed 51.5 s
+brwb3 chain 3: warmup call 25, elapsed 138.4 s
+brwb3 chain 1: warmup call 25, elapsed 147.4 s
+brwb3 chain 3: warmup call 50, elapsed 196.8 s
+brwb3 chain 1: warmup call 50, elapsed 210.6 s
+brwb3 chain 3: warmup call 75, elapsed 260.7 s
+brwb3 chain 1: warmup call 75, elapsed 275.6 s
+brwb3 chain 3: warmup call 100, elapsed 329.9 s
+brwb3 chain 1: warmup call 100, elapsed 331.0 s
+brwb3 chain 3: warmup call 125, elapsed 375.5 s
+brwb3 chain 1: warmup call 125, elapsed 403.4 s
+brwb3 chain 3: warmup call 150, elapsed 420.4 s
+brwb3 chain 1: warmup call 150, elapsed 455.4 s
+brwb3 chain 3: warmup call 175, elapsed 462.5 s
+brwb3 chain 1: warmup call 175, elapsed 490.6 s
+brwb3 chain 3: warmup call 200, elapsed 498.9 s
+brwb3 chain 1: warmup call 200, elapsed 532.3 s
+brwb3 chain 3: warmup call 225, elapsed 555.0 s
+brwb3 chain 1: warmup call 225, elapsed 559.8 s
+brwb3 chain 1: warmup call 250, elapsed 593.0 s
+brwb3 chain 1: saved 1/100 retained draws
+brwb3 chain 3: warmup call 250, elapsed 618.9 s
+brwb3 chain 3: saved 1/100 retained draws
+brwb3 chain 1: sampling call 275, elapsed 638.6 s
+brwb3 chain 1: sampling call 300, elapsed 669.2 s
+brwb3 chain 3: sampling call 275, elapsed 684.1 s
+brwb3 chain 1: sampling call 325, elapsed 703.0 s
+brwb3 chain 3: sampling call 300, elapsed 734.6 s
+brwb3 chain 1: saved 100/100 retained draws
+brwb3 chain 1: sampling call 350, elapsed 735.0 s
+brwb3 chain 2: initialization call 1, elapsed 746.2 s
+brwb3 chain 2: warmup call 25, elapsed 774.7 s
+brwb3 chain 3: sampling call 325, elapsed 787.1 s
+brwb3 chain 2: warmup call 50, elapsed 806.8 s
+brwb3 chain 3: saved 100/100 retained draws
+brwb3 chain 3: sampling call 350, elapsed 848.3 s
+brwb3 chain 4: initialization call 1, elapsed 851.0 s
+brwb3 chain 2: warmup call 75, elapsed 862.8 s
+brwb3 chain 2: warmup call 100, elapsed 924.1 s
+brwb3 chain 2: warmup call 125, elapsed 997.8 s
+brwb3 chain 2: warmup call 150, elapsed 1088.6 s
+brwb3 chain 2: warmup call 175, elapsed 1169.2 s
+brwb3 chain 4: warmup call 25, elapsed 1183.4 s
+brwb3 chain 2: warmup call 200, elapsed 1248.7 s
+brwb3 chain 4: warmup call 50, elapsed 1275.5 s
+brwb3 chain 2: warmup call 225, elapsed 1328.3 s
+brwb3 chain 4: warmup call 75, elapsed 1331.0 s
+brwb3 chain 2: warmup call 250, elapsed 1384.9 s
+brwb3 chain 2: saved 1/100 retained draws
+brwb3 chain 4: warmup call 100, elapsed 1390.5 s
+brwb3 chain 2: sampling call 275, elapsed 1437.7 s
+brwb3 chain 4: warmup call 125, elapsed 1461.3 s
+brwb3 chain 2: sampling call 300, elapsed 1490.9 s
+brwb3 chain 4: warmup call 150, elapsed 1532.7 s
+brwb3 chain 2: sampling call 325, elapsed 1541.9 s
+brwb3 chain 2: saved 100/100 retained draws
+brwb3 chain 2: sampling call 350, elapsed 1590.4 s
+brwb3 chain 4: warmup call 175, elapsed 1595.0 s
+brwb3 chain 4: warmup call 200, elapsed 1655.7 s
+brwb3 chain 4: warmup call 225, elapsed 1718.9 s
+brwb3 chain 4: warmup call 250, elapsed 1783.1 s
+brwb3 chain 4: saved 1/100 retained draws
+brwb3 chain 4: sampling call 275, elapsed 1851.1 s
+brwb3 chain 4: sampling call 300, elapsed 1945.5 s
+brwb3 chain 4: sampling call 325, elapsed 2046.5 s
+brwb3 chain 4: saved 100/100 retained draws
+brwb3 chain 4: sampling call 350, elapsed 2144.1 s
+Completed brwb3: posterior_diagnostics_failed
+Depth diagnostic: complete; accepted: false; longer-run screen: true
+Test Summary:                           | Pass  Total      Time
+Bounded tree-depth diagnostic integrity |   19     19  38m08.7s

@@ -1,0 +1,16 @@
+# Synthetic parser fixture only. These numbers are not biological parameters.
+# Reverse alphabetical order deliberately exercises deterministic output order.
+[z_integer]
+value = 2
+units = "1"
+source = "synthetic:test/fixtures/params/valid.toml"
+location = "Integer parser fixture"
+confidence = "medium"
+
+[a_rate]
+value = 0.25
+units = "1/h"
+source = "synthetic:test/fixtures/params/valid.toml"
+location = "Floating-point parser fixture"
+notes = "Synthetic input; not suitable for a fermentation model."
+confidence = "high"

@@ -1,0 +1,17 @@
+depth_hits = 80
+diagnostics_passed = false
+direct_metric_comparison_available = false
+divergences = 0
+elapsed_seconds = 262.6890001296997
+likelihood_draws = 100
+max_rhat = 1.5993135326272254
+min_ess_bulk = 9.84238867737878
+min_ess_tail = 14.438283327003425
+minimum_ess = 400
+observations = 96
+psis_loo = "not computed; pointwise log likelihood exported separately"
+published_psis_loo = "missing: archived posterior outputs absent"
+retained_draws = 100
+rhat_threshold = 1.01
+status = "posterior_diagnostics_failed"
+trial = "brwb3"

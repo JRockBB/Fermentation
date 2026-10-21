@@ -1,0 +1,2 @@
+trial,in_paper_benchmark,observations,status,max_rhat,min_ess_bulk,min_ess_tail,divergences,depth_hits,retained_draws,elapsed_seconds,published_baseline_success,published_max_rhat,published_min_bulk_ess,published_min_tail_ess,published_bma_weight,psis_loo,published_psis_loo
+ghhp4,true,105,posterior_diagnostics_passed,1.0022611677285198,3219.4619168663535,1920.076354336082,0,0,8000,3917.476000070572,true,1.0,2515.0,1361.0,0.022,,

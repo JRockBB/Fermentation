@@ -1,0 +1,8 @@
+status = "interrupted_during_sampling"
+date = "2026-10-20"
+reason = "Stopped by Codex to revise hidden-lactate prediction exports to latent normalized bands only. No physical scale or measurement distribution is assigned to the hidden state."
+fit_accepted = false
+complete_benchmark_run = false
+implementation_snapshot = "implementation_fit_cocoa_benchmark_bayes.jl"
+replacement_run = "../bayes_brwb3_ghhp4_v2"
+notes = "Original settings, input, source hashes, and any partial draw checkpoints are preserved. The source snapshot matches the Bayesian runner hash recorded in settings.toml. Draw checkpoints do not contain sampler adaptation state."
